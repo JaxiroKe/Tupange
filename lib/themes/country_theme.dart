@@ -13,163 +13,163 @@ abstract class CountryTheme extends PuzzleTheme {
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class AlgeriaTheme extends CountryTheme {
-  const AlgeriaTheme();
+class Country1Theme extends CountryTheme {
+  const Country1Theme();
 
   @override
-  String get assetForTile => AppAssets.algeriaImage;
+  String get assetForTile => AppAssets.country1Image;
 }
 
-class BotswanaTheme extends CountryTheme {
-  const BotswanaTheme();
+class Country2Theme extends CountryTheme {
+  const Country2Theme();
 
   @override
-  String get assetForTile => AppAssets.botswanaImage;
+  String get assetForTile => AppAssets.country2Image;
 }
 
-class BrazilTheme extends CountryTheme {
-  const BrazilTheme();
+class Country3Theme extends CountryTheme {
+  const Country3Theme();
 
   @override
-  String get assetForTile => AppAssets.brazilImage;
+  String get assetForTile => AppAssets.country3Image;
 }
 
-class ChinaTheme extends CountryTheme {
-  const ChinaTheme();
+class Country4Theme extends CountryTheme {
+  const Country4Theme();
 
   @override
-  String get assetForTile => AppAssets.chinaImage;
+  String get assetForTile => AppAssets.country4Image;
 }
 
-class DrcTheme extends CountryTheme {
-  const DrcTheme();
+class Country5Theme extends CountryTheme {
+  const Country5Theme();
 
   @override
-  String get assetForTile => AppAssets.drcImage;
+  String get assetForTile => AppAssets.country5Image;
 }
 
-class EgyptTheme extends CountryTheme {
-  const EgyptTheme();
+class Country6Theme extends CountryTheme {
+  const Country6Theme();
 
   @override
-  String get assetForTile => AppAssets.egyptImage;
+  String get assetForTile => AppAssets.country6Image;
 }
 
-class IndiaTheme extends CountryTheme {
-  const IndiaTheme();
+class Country7Theme extends CountryTheme {
+  const Country7Theme();
 
   @override
-  String get assetForTile => AppAssets.indiaImage;
+  String get assetForTile => AppAssets.country7Image;
 }
 
-class KenyaTheme extends CountryTheme {
-  const KenyaTheme();
+class Country8Theme extends CountryTheme {
+  const Country8Theme();
 
   @override
-  String get assetForTile => AppAssets.kenyaImage;
+  String get assetForTile => AppAssets.country8Image;
 }
 
-class MoroccoTheme extends CountryTheme {
-  const MoroccoTheme();
+class Country9Theme extends CountryTheme {
+  const Country9Theme();
 
   @override
-  String get assetForTile => AppAssets.moroccoImage;
+  String get assetForTile => AppAssets.country9Image;
 }
 
-class NamibiaTheme extends CountryTheme {
-  const NamibiaTheme();
+class Country10Theme extends CountryTheme {
+  const Country10Theme();
 
   @override
-  String get assetForTile => AppAssets.namibiaImage;
+  String get assetForTile => AppAssets.country10Image;
 }
 
-class NigeriaTheme extends CountryTheme {
-  const NigeriaTheme();
+class Country11Theme extends CountryTheme {
+  const Country11Theme();
 
   @override
-  String get assetForTile => AppAssets.nigeriaImage;
+  String get assetForTile => AppAssets.country11Image;
 }
 
-class PakistanTheme extends CountryTheme {
-  const PakistanTheme();
+class Country12Theme extends CountryTheme {
+  const Country12Theme();
 
   @override
-  String get assetForTile => AppAssets.pakistanImage;
+  String get assetForTile => AppAssets.country12Image;
 }
 
-class QatarTheme extends CountryTheme {
-  const QatarTheme();
+class Country13Theme extends CountryTheme {
+  const Country13Theme();
 
   @override
-  String get assetForTile => AppAssets.qatarImage;
+  String get assetForTile => AppAssets.country13Image;
 }
 
-class RussiaTheme extends CountryTheme {
-  const RussiaTheme();
+class Country14Theme extends CountryTheme {
+  const Country14Theme();
 
   @override
-  String get assetForTile => AppAssets.russiaImage;
+  String get assetForTile => AppAssets.country14Image;
 }
 
-class SaTheme extends CountryTheme {
-  const SaTheme();
+class Country15Theme extends CountryTheme {
+  const Country15Theme();
 
   @override
-  String get assetForTile => AppAssets.saImage;
+  String get assetForTile => AppAssets.country15Image;
 }
 
-class SingaporeTheme extends CountryTheme {
-  const SingaporeTheme();
+class Country16Theme extends CountryTheme {
+  const Country16Theme();
 
   @override
-  String get assetForTile => AppAssets.singaporeImage;
+  String get assetForTile => AppAssets.country16Image;
 }
 
-class SudanTheme extends CountryTheme {
-  const SudanTheme();
+class Country17Theme extends CountryTheme {
+  const Country17Theme();
 
   @override
-  String get assetForTile => AppAssets.sudanImage;
+  String get assetForTile => AppAssets.country17Image;
 }
 
-class TanzaniaTheme extends CountryTheme {
-  const TanzaniaTheme();
+class Country18Theme extends CountryTheme {
+  const Country18Theme();
 
   @override
-  String get assetForTile => AppAssets.tanzaniaImage;
+  String get assetForTile => AppAssets.country18Image;
 }
 
-class TunisiaTheme extends CountryTheme {
-  const TunisiaTheme();
+class Country19Theme extends CountryTheme {
+  const Country19Theme();
 
   @override
-  String get assetForTile => AppAssets.tunisiaImage;
+  String get assetForTile => AppAssets.country19Image;
 }
 
-class UaeTheme extends CountryTheme {
-  const UaeTheme();
+class Country20Theme extends CountryTheme {
+  const Country20Theme();
 
   @override
-  String get assetForTile => AppAssets.uaeImage;
+  String get assetForTile => AppAssets.country20Image;
 }
 
-class UgandaTheme extends CountryTheme {
-  const UgandaTheme();
+class Country21Theme extends CountryTheme {
+  const Country21Theme();
 
   @override
-  String get assetForTile => AppAssets.ugandaImage;
+  String get assetForTile => AppAssets.country21Image;
 }
 
-class UkraineTheme extends CountryTheme {
-  const UkraineTheme();
+class Country22Theme extends CountryTheme {
+  const Country22Theme();
 
   @override
-  String get assetForTile => AppAssets.ukraineImage;
+  String get assetForTile => AppAssets.country22Image;
 }
 
-class UsaTheme extends CountryTheme {
-  const UsaTheme();
+class Country23Theme extends CountryTheme {
+  const Country23Theme();
 
   @override
-  String get assetForTile => AppAssets.usaImage;
+  String get assetForTile => AppAssets.country23Image;
 }

@@ -1,19 +1,18 @@
 import 'package:equatable/equatable.dart';
 
 enum AnimalType {
-  baboon,
-  buffalo,
-  mazda,
-  elephant,
-  giraffe,
-  hippo,
-  hyena,
-  leopard,
-  lion,
-  monkey,
-  rhino,
-  tortoise,
-  zebra,
+  animal1,
+  animal2,
+  animal3,
+  animal4,
+  animal5,
+  animal6,
+  animal7,
+  animal8,
+  animal9,
+  animal10,
+  animal11,
+  animal12,
 }
 
 extension AnimalTypeParsing on AnimalType {

@@ -3,12 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../models/game.dart';
+import '../../models/categories/animal.dart';
 import '../../models/categories/country.dart';
+import '../../models/categories/county.dart';
 import '../../models/categories/planet.dart';
 import '../../../utils/app_logger.dart';
 import '../../../utils/constants/app_constants.dart';
 import '../../../utils/constants/app_dimens.dart';
 import '../../../utils/utils.dart';
+import '../../models/categories/president.dart';
+import '../../models/categories/vehicle.dart';
 import '../../screens/puzzle/puzzle_screen.dart';
 import 'category_selection_cubit.dart';
 import 'level_selection_cubit.dart';
@@ -25,12 +29,20 @@ class GameSelectionCubit extends Cubit<GameSelectionState> {
       : super(NoGameSelected());
 
   late Game _game;
-  late Planet _planet;
+  late Animal _animal;
   late Country _country;
+  late County _county;
+  late Planet _planet;
+  late President _president;
+  late Vehicle _vehicle;
 
   Game get game => _game;
-  Planet get planet => _planet;
+  Animal get animal => _animal;
   Country get country => _country;
+  County get county => _county;
+  Planet get planet => _planet;
+  President get president => _president;
+  Vehicle get vehicle => _vehicle;
 
   void onGameSelected(Game game) async {
     _game = game;

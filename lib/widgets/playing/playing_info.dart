@@ -7,8 +7,12 @@ import '../../cubits/menu/game_selection_cubit.dart';
 import '../../cubits/puzzle/puzzle_helper_cubit.dart';
 import '../../models/game.dart';
 import '../../utils/app_localizationsx.dart';
-import '../../utils/utils_country.dart';
-import '../../utils/utils_planet.dart';
+import '../../utils/games/utils_animal.dart';
+import '../../utils/games/utils_country.dart';
+import '../../utils/games/utils_county.dart';
+import '../../utils/games/utils_planet.dart';
+import '../../utils/games/utils_president.dart';
+import '../../utils/games/utils_vehicle.dart';
 import '../layout/responsive_layout_builder.dart';
 import '../stylized_icon.dart';
 import '../stylized_text.dart';
@@ -20,12 +24,34 @@ class PlayingInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final game = context.read<GameSelectionCubit>().game;
-    final planet = context.read<GameSelectionCubit>().planet;
-    final country = context.read<GameSelectionCubit>().country;
 
-    var title = UtilsPlanet.name(planet.type, context);
-    if (game.type == GameType.countries) {
-      title = UtilsCountry.name(country.type, context);
+    final animal = context.read<GameSelectionCubit>().animal;
+    final country = context.read<GameSelectionCubit>().country;
+    final county = context.read<GameSelectionCubit>().county;
+    final planet = context.read<GameSelectionCubit>().planet;
+    final president = context.read<GameSelectionCubit>().president;
+    final vehicle = context.read<GameSelectionCubit>().vehicle;
+
+    var title = '';
+    switch (game.type) {
+      case GameType.animals:
+        title = UtilsAnimal.name(animal.type, context);
+        break;
+      case GameType.countries:
+        title = UtilsCountry.name(country.type, context);
+        break;
+      case GameType.counties:
+        title = UtilsCounty.name(county.type, context);
+        break;
+      case GameType.planets:
+        title = UtilsPlanet.name(planet.type, context);
+        break;
+      case GameType.presidents:
+        title = UtilsPresident.name(president.type, context);
+        break;
+      case GameType.vehicles:
+        title = UtilsVehicle.name(vehicle.type, context);
+        break;
     }
 
     return ResponsiveLayoutBuilder(

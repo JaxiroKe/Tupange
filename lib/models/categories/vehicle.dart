@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
 
 enum VehicleType {
-  kiira,
-  mahindra,
-  mazda,
-  mobius,
-  toyota,
+  vehicle1,
+  vehicle2,
+  vehicle3,
+  vehicle4,
+  vehicle5,
 }
 
 extension VehicleTypeParsing on VehicleType {

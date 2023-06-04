@@ -59,12 +59,12 @@
   "@menuShortcutDiffInc": {
     "description": "Increase difficulty level"
   },
-  "menuShortcutInfo": "Show this shortcut dialog",
-  "@menuShortcutInfo": {
+  "menuShortcutDialogInfo": "Show shortcut dialog info",
+  "@menuShortcutDialogInfo": {
     "description": "Show shortcut dialog info"
   },
   "menuShortcutChooseAPlanet": "Choose a Planet",
-  "@menuShortcutInfo": {
+  "@menuShortcutChooseAPlanet": {
     "description": "Choose a planet to begin the puzzle"
   },
   "menuShortcutClose": "Close dialog",
@@ -103,13 +103,9 @@
   "@whitespaceRight": {
     "description": "Move whitespace right"
   },
-  "backToSolarSystem": "Go back to solar system",
+  "backToSolarSystem": "Go back to game menu",
   "@backToSolarSystem": {
     "description": "Quit puzzle screen and go back to menu"
-  },
-  "solarSystem": "Solar System",
-  "@solarSystem": {
-    "description": "Solar System"
   },
   "stop": "Stop",
   "@stop": {
@@ -163,121 +159,604 @@
       }
     }
   },
-  "planets": "Planets",
-  "@planets": {
-    "description": "The category of planets"
-  },
-  "mercury": "Mercury",
-  "@mercury": {
-    "description": "Planet name - mercury"
-  },
-  "mercuryFact1": "Mercury is the smallest planet in the Solar System, of course because someone (Pluto) is not considered a planet anymore.",
-  "mercuryFact2": "Imagine able to sleep once every 2 months, that's one mercurial day, equals to almost 59 earth days.",
-  "mercuryFact3": "Though the closest planet to Sun, Mercury's temperatures can drop to as low as -180 degrees Celsius / -290 degrees Fahrenheit.",
-  "venus": "Venus",
-  "@venus": {
-    "description": "Planet name - venus"
-  },
-  "venusFact1": "In Venus a day is longer than a year. For reference, 1 Venus day equal 243 Earth days, and 1 Venus year equals 225 Earth days. Interesting huh?",
-  "venusFact2": "Venus, for some unknown reason, spins the opposite direction of Earth and most other tupange.",
-  "venusFact3": "Due to its thick atmosphere, Venus traps heat (global warming?) making it the hottest planet in our solar system. To top that off, there are more than 1600 major volcano.",
-  "earth": "Earth",
-  "@earth": {
-    "description": "Planet name - earth"
-  },
-  "earthFact1": "Our home",
-  "earthFact2": "Our Earth's rotation is slowing. Precisely, slowing down 17 milliseconds, every 100 years. Not much huh?",
-  "earthFact3": "Earth takes exactly 23 hours, 56 minutes and 4 seconds to complete one rotation around its axis. A 4 min gap every day will add up over months, and probably it's technically night right now, with daylight.",
-  "mars": "Mars",
-  "@mars": {
-    "description": "Planet name - mars"
-  },
-  "marsFact1": "A year on Mars is almost twice as long as a year on Earth.",
-  "marsFact2": "If you are 100 lbs (or, 45 kg) on Earth, you would weight only 38 lbs (or, 17 kg) on Mars.",
-  "marsFact3": "Mars is called the “Red Planet” because, well it’s red. This color comes from the large amount of iron oxide present in its rocks and soil. Iron oxide, in simple terms, is just rust.",
-  "jupiter": "Jupiter",
-  "@jupiter": {
-    "description": "Planet name - jupiter"
-  },
-  "jupiterFact1": "Jupiter is the fastest spinning planet in our solar system. To give a context, Jupiter’s one day lasts around 10 earth hours.",
-  "jupiterFact2": "Being the third brightest object in our Solar System (after Venus and Moon), we can see Jupiter with our own eyes.",
-  "jupiterFact3": "Jupiter too has rings. They were the last to be discovered (after Saturn & Uranus’s rings) due to the fact that they are particularly faint.",
-  "saturn": "Saturn",
-  "@saturn": {
-    "description": "Planet name - saturn"
-  },
-  "saturnFact1": "Saturn’s revolution around the Sun is very slow. A year on Saturn is more than 29 Earth years.",
-  "saturnFact2": "This planet was named after the Roman god of farming, Saturn. And interestingly, the day Saturday was named after the planet, Saturn.",
-  "saturnFact3": "Saturn has beautiful rings, and they aren’t solid, they are made up of ice, dust and rocks.",
-  "uranus": "Uranus",
-  "@uranus": {
-    "description": "Planet name - uranus"
-  },
-  "uranusFact1": "Uranus, for some unknown reason, spins the opposite direction of Earth and most other tupange, and an Uranian day lasts about 17 Earth hours.",
-  "uranusFact2": "Uranus has rings too. It is thought that the rings are to be parts of a moon or moons that were sometime shattered by high speed impacts with an object such as comet or asteroid.",
-  "uranusFact3": "Uranus takes almost 84 Earth years to complete one orbit. Imagine having a single Uranian birthday for your entire Earthian life.",
-  "neptune": "Neptune",
-  "@neptune": {
-    "description": "Planet name - neptune"
-  },
-  "neptuneFact1": "Neptune’s one year lasts 165 Earth years. Neptune has just completed one orbit around the Sun, since its discovery in 1846.",
-  "neptuneFact2": "Neptune has the strongest winds of any tupange in the Solar System. Some winds can reach up to 2000 km / 1200 mi per hour. Supersonic winds, huh!",
-  "neptuneFact3": "It rains diamonds in Neptune! It is thought that the Methane decomposes into diamond crystals due to the planet’s conditions.",
-  "pluto": "Pluto",
-  "@pluto": {
-    "description": "Planet name - pluto"
-  },
-  "plutoFact1": "I understand Pluto is not a planet anymore, but I felt sad excluding it.",
-  "plutoFact2": "Pluto was demoted to dwarf planet status in 2006 - as its merely the brightest member of the Kuiper Belt, it’s simply not unique (unlike other tupange)",
-  "plutoFact3": "Being one of the farthest member from Sun, Pluto can actually get closer to the Sun than Neptune. It was last inside Neptune’s orbit between 1979 and 1999.",
-  "countries": "Countries",
-  "@countries": {
-    "description": "The category of countries"
-  },
-  "kenya": "Kenya",
-  "@kenya": {
-    "description": "Country name - kenya"
-  },
-  "kenyaFact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "kenyaFact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "kenyaFact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "tanzania": "Tanzania",
-  "@tanzania": {
-    "description": "Country name - tanzania"
-  },
-  "tanzaniaFact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "tanzaniaFact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "tanzaniaFact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "uganda": "Uganda",
-  "@uganda": {
-    "description": "Country name - uganda"
-  },
-  "ugandaFact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "ugandaFact2": "This is the second largest landlocked country in the world in terms of population. It falls second only to Ethiopia.",
-  "ugandaFact3": "This is the second largest producer of bananas in the world, falling second only to India. The country produces an estimated 12 million tons annually.",
-  "nigeria": "Nigeria",
-  "@nigeria": {
-    "description": "Country name - nigeria"
-  },
-  "nigeriaFact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the country's three regions.",
-  "nigeriaFact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "nigeriaFact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
   "animals": "Animals",
   "@animals": {
     "description": "The category of animals"
   },
-  "presidents": "Presidents",
-  "@presidents": {
-    "description": "The category of presidents"
+  "animal1": "Kenya",
+  "@animal1": {
+    "description": "Animal name - Kenya"
   },
+  "animal1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
+  "animal1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
+  "animal1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
+  "animal2": "Tanzania",
+  "@animal2": {
+    "description": "Animal name - Tanzania"
+  },
+  "animal2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
+  "animal2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
+  "animal2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
+  "animal3": "Uganda",
+  "@animal3": {
+    "description": "Animal name - Uganda"
+  },
+  "animal3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
+  "animal3Fact2": "This is the second largest landlocked animal in the world in terms of population. It falls second only to Ethiopia.",
+  "animal3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The animal produces an estimated 12 million tons annually.",
+  "animal4": "Nigeria",
+  "@animal4": {
+    "description": "Animal name - Nigeria"
+  },
+  "animal4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the animal's three regions.",
+  "animal4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
+  "animal4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
+  "animal5": "",
+  "@animal5": {
+    "description": "Animal name - "
+  },
+  "animal5Fact1": "",
+  "animal5Fact2": "",
+  "animal5Fact3": "",
+  "animal6": "",
+  "@animal6": {
+    "description": "Animal name - "
+  },
+  "animal6Fact1": "",
+  "animal6Fact2": "",
+  "animal6Fact3": "",
+  "animal7": "",
+  "@animal7": {
+    "description": "Animal name - "
+  },
+  "animal7Fact1": "",
+  "animal7Fact2": "",
+  "animal7Fact3": "",
+  "animal8": "",
+  "@animal8": {
+    "description": "Animal name - "
+  },
+  "animal8Fact1": "",
+  "animal8Fact2": "",
+  "animal8Fact3": "",
+  "animal9": "",
+  "@animal9": {
+    "description": "Animal name - "
+  },
+  "animal9Fact1": "",
+  "animal9Fact2": "",
+  "animal9Fact3": "",
+  "animal10": "",
+  "@animal10": {
+    "description": "Animal name - "
+  },
+  "animal10Fact1": "",
+  "animal10Fact2": "",
+  "animal10Fact3": "",
+  "animal11": "",
+  "@animal11": {
+    "description": "Animal name - "
+  },
+  "animal11Fact1": "",
+  "animal11Fact2": "",
+  "animal11Fact3": "",
+  "animal12": "",
+  "@animal12": {
+    "description": "Animal name - "
+  },
+  "animal12Fact1": "",
+  "animal12Fact2": "",
+  "animal12Fact3": "",
+  "countries": "Countries",
+  "@countries": {
+    "description": "The category of countries"
+  },
+  "country1": "Kenya",
+  "@country1": {
+    "description": "Country name - Kenya"
+  },
+  "country1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
+  "country1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
+  "country1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
+  "country2": "Tanzania",
+  "@country2": {
+    "description": "Country name - Tanzania"
+  },
+  "country2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
+  "country2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
+  "country2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
+  "country3": "Uganda",
+  "@country3": {
+    "description": "Country name - Uganda"
+  },
+  "country3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
+  "country3Fact2": "This is the second largest landlocked country in the world in terms of population. It falls second only to Ethiopia.",
+  "country3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The country produces an estimated 12 million tons annually.",
+  "country4": "Nigeria",
+  "@country4": {
+    "description": "Country name - Nigeria"
+  },
+  "country4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the country's three regions.",
+  "country4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
+  "country4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
+  "country5": "",
+  "@country5": {
+    "description": "Country name - "
+  },
+  "country5Fact1": "",
+  "country5Fact2": "",
+  "country5Fact3": "",
+  "country6": "",
+  "@country6": {
+    "description": "Country name - "
+  },
+  "country6Fact1": "",
+  "country6Fact2": "",
+  "country6Fact3": "",
+  "country7": "",
+  "@country7": {
+    "description": "Country name - "
+  },
+  "country7Fact1": "",
+  "country7Fact2": "",
+  "country7Fact3": "",
+  "country8": "",
+  "@country8": {
+    "description": "Country name - "
+  },
+  "country8Fact1": "",
+  "country8Fact2": "",
+  "country8Fact3": "",
+  "country9": "",
+  "@country9": {
+    "description": "Country name - "
+  },
+  "country9Fact1": "",
+  "country9Fact2": "",
+  "country9Fact3": "",
+  "country10": "",
+  "@country10": {
+    "description": "Country name - "
+  },
+  "country10Fact1": "",
+  "country10Fact2": "",
+  "country10Fact3": "",
+  "country11": "",
+  "@country11": {
+    "description": "Country name - "
+  },
+  "country11Fact1": "",
+  "country11Fact2": "",
+  "country11Fact3": "",
+  "country12": "",
+  "@country12": {
+    "description": "Country name - "
+  },
+  "country12Fact1": "",
+  "country12Fact2": "",
+  "country12Fact3": "",
+  "country13": "",
+  "@country13": {
+    "description": "Country name - "
+  },
+  "country13Fact1": "",
+  "country13Fact2": "",
+  "country13Fact3": "",
+  "country14": "",
+  "@country14": {
+    "description": "Country name - "
+  },
+  "country14Fact1": "",
+  "country14Fact2": "",
+  "country14Fact3": "",
+  "country15": "",
+  "@country15": {
+    "description": "Country name - "
+  },
+  "country15Fact1": "",
+  "country15Fact2": "",
+  "country15Fact3": "",
+  "country16": "",
+  "@country16": {
+    "description": "Country name - "
+  },
+  "country16Fact1": "",
+  "country16Fact2": "",
+  "country16Fact3": "",
+  "country17": "",
+  "@country17": {
+    "description": "Country name - "
+  },
+  "country17Fact1": "",
+  "country17Fact2": "",
+  "country17Fact3": "",
+  "country18": "",
+  "@country18": {
+    "description": "Country name - "
+  },
+  "country18Fact1": "",
+  "country18Fact2": "",
+  "country18Fact3": "",
+  "country19": "",
+  "@country19": {
+    "description": "Country name - "
+  },
+  "country19Fact1": "",
+  "country19Fact2": "",
+  "country19Fact3": "",
+  "country20": "",
+  "@country20": {
+    "description": "Country name - "
+  },
+  "country20Fact1": "",
+  "country20Fact2": "",
+  "country20Fact3": "",
+  "country21": "",
+  "@country21": {
+    "description": "Country name - "
+  },
+  "country21Fact1": "",
+  "country21Fact2": "",
+  "country21Fact3": "",
+  "country22": "",
+  "@country22": {
+    "description": "Country name - "
+  },
+  "country22Fact1": "",
+  "country22Fact2": "",
+  "country22Fact3": "",
+  "country23": "",
+  "@country23": {
+    "description": "Country name - "
+  },
+  "country23Fact1": "",
+  "country23Fact2": "",
+  "country23Fact3": "",
   "counties": "Counties",
   "@counties": {
     "description": "The category of counties"
   },
+  "county1": "Kenya",
+  "@county1": {
+    "description": "County name - Kenya"
+  },
+  "county1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
+  "county1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
+  "county1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
+  "county2": "Tanzania",
+  "@county2": {
+    "description": "County name - Tanzania"
+  },
+  "county2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
+  "county2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
+  "county2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
+  "county3": "Uganda",
+  "@county3": {
+    "description": "County name - Uganda"
+  },
+  "county3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
+  "county3Fact2": "This is the second largest landlocked county in the world in terms of population. It falls second only to Ethiopia.",
+  "county3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The county produces an estimated 12 million tons annually.",
+  "county4": "Nigeria",
+  "@county4": {
+    "description": "County name - Nigeria"
+  },
+  "county4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the county's three regions.",
+  "county4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
+  "county4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
+  "county5": "",
+  "@county5": {
+    "description": "County name - "
+  },
+  "county5Fact1": "",
+  "county5Fact2": "",
+  "county5Fact3": "",
+  "county6": "",
+  "@county6": {
+    "description": "County name - "
+  },
+  "county6Fact1": "",
+  "county6Fact2": "",
+  "county6Fact3": "",
+  "county7": "",
+  "@county7": {
+    "description": "County name - "
+  },
+  "county7Fact1": "",
+  "county7Fact2": "",
+  "county7Fact3": "",
+  "county8": "",
+  "@county8": {
+    "description": "County name - "
+  },
+  "county8Fact1": "",
+  "county8Fact2": "",
+  "county8Fact3": "",
+  "county9": "",
+  "@county9": {
+    "description": "County name - "
+  },
+  "county9Fact1": "",
+  "county9Fact2": "",
+  "county9Fact3": "",
+  "county10": "",
+  "@county10": {
+    "description": "County name - "
+  },
+  "county10Fact1": "",
+  "county10Fact2": "",
+  "county10Fact3": "",
+  "county11": "",
+  "@county11": {
+    "description": "County name - "
+  },
+  "county11Fact1": "",
+  "county11Fact2": "",
+  "county11Fact3": "",
+  "county12": "",
+  "@county12": {
+    "description": "County name - "
+  },
+  "county12Fact1": "",
+  "county12Fact2": "",
+  "county12Fact3": "",
+  "county13": "",
+  "@county13": {
+    "description": "County name - "
+  },
+  "county13Fact1": "",
+  "county13Fact2": "",
+  "county13Fact3": "",
+  "county14": "",
+  "@county14": {
+    "description": "County name - "
+  },
+  "county14Fact1": "",
+  "county14Fact2": "",
+  "county14Fact3": "",
+  "county15": "",
+  "@county15": {
+    "description": "County name - "
+  },
+  "county15Fact1": "",
+  "county15Fact2": "",
+  "county15Fact3": "",
+  "county16": "",
+  "@county16": {
+    "description": "County name - "
+  },
+  "county16Fact1": "",
+  "county16Fact2": "",
+  "county16Fact3": "",
+  "county17": "",
+  "@county17": {
+    "description": "County name - "
+  },
+  "county17Fact1": "",
+  "county17Fact2": "",
+  "county17Fact3": "",
+  "county18": "",
+  "@county18": {
+    "description": "County name - "
+  },
+  "county18Fact1": "",
+  "county18Fact2": "",
+  "county18Fact3": "",
+  "county19": "",
+  "@county19": {
+    "description": "County name - "
+  },
+  "county19Fact1": "",
+  "county19Fact2": "",
+  "county19Fact3": "",
+  "planets": "Planets",
+  "@planets": {
+    "description": "The category of planets"
+  },
+  "planet1": "Mercury",
+  "@planet1": {
+    "description": "Planet name - Mercury"
+  },
+  "planet1Fact1": "Mercury is the smallest planet in the Solar System, of course because someone (Pluto) is not considered a planet anymore.",
+  "planet1Fact2": "Imagine able to sleep once every 2 months, that's one mercurial day, equals to almost 59 planet3 days.",
+  "planet1Fact3": "Though the closest planet to Sun, Mercury's temperatures can drop to as low as -180 degrees Celsius / -290 degrees Fahrenheit.",
+  "planet2": "Venus",
+  "@planet2": {
+    "description": "Planet name - Venus"
+  },
+  "planet2Fact1": "In Venus a day is longer than a year. For reference, 1 Venus day equal 243 Earth days, and 1 Venus year equals 225 Earth days. Interesting huh?",
+  "planet2Fact2": "Venus, for some unknown reason, spins the opposite direction of Earth and most other tupange.",
+  "planet2Fact3": "Due to its thick atmosphere, Venus traps heat (global warming?) making it the hottest planet in our solar system. To top that off, there are more than 1600 major volcano.",
+  "planet3": "Earth",
+  "@planet3": {
+    "description": "Planet name - Venus"
+  },
+  "planet3Fact1": "Our home",
+  "planet3Fact2": "Our Earth's rotation is slowing. Precisely, slowing down 17 milliseconds, every 100 years. Not much huh?",
+  "planet3Fact3": "Earth takes exactly 23 hours, 56 minutes and 4 seconds to complete one rotation around its axis. A 4 min gap every day will add up over months, and probably it's technically night right now, with daylight.",
+  "planet4": "Mars",
+  "@planet4": {
+    "description": "Planet name - Earth"
+  },
+  "planet4Fact1": "A year on Mars is almost twice as long as a year on Earth.",
+  "planet4Fact2": "If you are 100 lbs (or, 45 kg) on Earth, you would weight only 38 lbs (or, 17 kg) on Mars.",
+  "planet4Fact3": "Mars is called the “Red Planet” because, well it’s red. This color comes from the large amount of iron oxide present in its rocks and soil. Iron oxide, in simple terms, is just rust.",
+  "planet5": "Jupiter",
+  "@planet5": {
+    "description": "Planet name - Jupiter"
+  },
+  "planet5Fact1": "Jupiter is the fastest spinning planet in our solar system. To give a context, Jupiter’s one day lasts around 10 planet3 hours.",
+  "planet5Fact2": "Being the third brightest object in our Solar System (after Venus and Moon), we can see Jupiter with our own eyes.",
+  "planet5Fact3": "Jupiter too has rings. They were the last to be discovered (after Saturn & Uranus’s rings) due to the fact that they are particularly faint.",
+  "planet6": "Saturn",
+  "@planet6": {
+    "description": "Planet name - Saturn"
+  },
+  "planet6Fact1": "Saturn’s revolution around the Sun is very slow. A year on Saturn is more than 29 Earth years.",
+  "planet6Fact2": "This planet was named after the Roman god of farming, Saturn. And interestingly, the day Saturday was named after the planet, Saturn.",
+  "planet6Fact3": "Saturn has beautiful rings, and they aren’t solid, they are made up of ice, dust and rocks.",
+  "planet7": "Uranus",
+  "@planet7": {
+    "description": "Planet name - Uranus"
+  },
+  "planet7Fact1": "Uranus, for some unknown reason, spins the opposite direction of Earth and most other tupange, and an Uranian day lasts about 17 Earth hours.",
+  "planet7Fact2": "Uranus has rings too. It is thought that the rings are to be parts of a moon or moons that were sometime shattered by high speed impacts with an object such as comet or asteroid.",
+  "planet7Fact3": "Uranus takes almost 84 Earth years to complete one orbit. Imagine having a single Uranian birthday for your entire Earthian life.",
+  "planet8": "Neptune",
+  "@planet8": {
+    "description": "Planet name - Neptune"
+  },
+  "planet8Fact1": "Neptune’s one year lasts 165 Earth years. Neptune has just completed one orbit around the Sun, since its discovery in 1846.",
+  "planet8Fact2": "Neptune has the strongest winds of any tupange in the Solar System. Some winds can reach up to 2000 km / 1200 mi per hour. Supersonic winds, huh!",
+  "planet8Fact3": "It rains diamonds in Neptune! It is thought that the Methane decomposes into diamond crystals due to the planet’s conditions.",
+  "planet9": "Pluto",
+  "@planet9": {
+    "description": "Planet name - Pluto"
+  },
+  "planet9Fact1": "I understand Pluto is not a planet anymore, but I felt sad excluding it.",
+  "planet9Fact2": "Pluto was demoted to dwarf planet status in 2006 - as its merely the brightest member of the Kuiper Belt, it’s simply not unique (unlike other tupange)",
+  "planet9Fact3": "Being one of the farthest member from Sun, Pluto can actually get closer to the Sun than Neptune. It was last inside Neptune’s orbit between 1979 and 1999.",
+  "presidents": "Presidents",
+  "@presidents": {
+    "description": "The category of presidents"
+  },
+  "president1": "Kenya",
+  "@president1": {
+    "description": "President name - Kenya"
+  },
+  "president1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
+  "president1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
+  "president1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
+  "president2": "Tanzania",
+  "@president2": {
+    "description": "President name - Tanzania"
+  },
+  "president2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
+  "president2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
+  "president2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
+  "president3": "Uganda",
+  "@president3": {
+    "description": "President name - Uganda"
+  },
+  "president3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
+  "president3Fact2": "This is the second largest landlocked president in the world in terms of population. It falls second only to Ethiopia.",
+  "president3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The president produces an estimated 12 million tons annually.",
+  "president4": "Nigeria",
+  "@president4": {
+    "description": "President name - Nigeria"
+  },
+  "president4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the president's three regions.",
+  "president4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
+  "president4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
+  "president5": "",
+  "@president5": {
+    "description": "President name - "
+  },
+  "president5Fact1": "",
+  "president5Fact2": "",
+  "president5Fact3": "",
+  "president6": "",
+  "@president6": {
+    "description": "President name - "
+  },
+  "president6Fact1": "",
+  "president6Fact2": "",
+  "president6Fact3": "",
+  "president7": "",
+  "@president7": {
+    "description": "President name - "
+  },
+  "president7Fact1": "",
+  "president7Fact2": "",
+  "president7Fact3": "",
+  "president8": "",
+  "@president8": {
+    "description": "President name - "
+  },
+  "president8Fact1": "",
+  "president8Fact2": "",
+  "president8Fact3": "",
+  "president9": "",
+  "@president9": {
+    "description": "President name - "
+  },
+  "president9Fact1": "",
+  "president9Fact2": "",
+  "president9Fact3": "",
+  "president10": "",
+  "@president10": {
+    "description": "President name - "
+  },
+  "president10Fact1": "",
+  "president10Fact2": "",
+  "president10Fact3": "",
+  "president11": "",
+  "@president11": {
+    "description": "President name - "
+  },
+  "president11Fact1": "",
+  "president11Fact2": "",
+  "president11Fact3": "",
+  "president12": "",
+  "@president12": {
+    "description": "President name - "
+  },
+  "president12Fact1": "",
+  "president12Fact2": "",
+  "president12Fact3": "",
+  "president13": "",
+  "@president13": {
+    "description": "President name - "
+  },
+  "president13Fact1": "",
+  "president13Fact2": "",
+  "president13Fact3": "",
+  "president14": "",
+  "@president14": {
+    "description": "President name - "
+  },
+  "president14Fact1": "",
+  "president14Fact2": "",
+  "president14Fact3": "",
   "vehicles": "Vehicles",
   "@vehicles": {
     "description": "The category of vehicles"
   },
+  "vehicle1": "Kenya",
+  "@vehicle1": {
+    "description": "Vehicle name - Kenya"
+  },
+  "vehicle1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
+  "vehicle1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
+  "vehicle1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
+  "vehicle2": "Tanzania",
+  "@vehicle2": {
+    "description": "Vehicle name - Tanzania"
+  },
+  "vehicle2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
+  "vehicle2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
+  "vehicle2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
+  "vehicle3": "Uganda",
+  "@vehicle3": {
+    "description": "Vehicle name - Uganda"
+  },
+  "vehicle3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
+  "vehicle3Fact2": "This is the second largest landlocked vehicle in the world in terms of population. It falls second only to Ethiopia.",
+  "vehicle3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The vehicle produces an estimated 12 million tons annually.",
+  "vehicle4": "Nigeria",
+  "@vehicle4": {
+    "description": "Vehicle name - Nigeria"
+  },
+  "vehicle4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the vehicle's three regions.",
+  "vehicle4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
+  "vehicle4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
+  "vehicle5": "",
+  "@vehicle5": {
+    "description": "Vehicle name - "
+  },
+  "vehicle5Fact1": "",
+  "vehicle5Fact2": "",
+  "vehicle5Fact3": "",
   "congrats": "Congrats!",
   "@congrats": {
     "description": "Puzzle completion congrats text"

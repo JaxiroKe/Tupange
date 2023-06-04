@@ -13,93 +13,86 @@ abstract class AnimalTheme extends PuzzleTheme {
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class BaboonTheme extends AnimalTheme {
-  const BaboonTheme();
+class Animal1Theme extends AnimalTheme {
+  const Animal1Theme();
 
   @override
-  String get assetForTile => AppAssets.baboonImage;
+  String get assetForTile => AppAssets.animal1Image;
 }
 
-class BuffaloTheme extends AnimalTheme {
-  const BuffaloTheme();
+class Animal2Theme extends AnimalTheme {
+  const Animal2Theme();
 
   @override
-  String get assetForTile => AppAssets.buffaloImage;
+  String get assetForTile => AppAssets.animal2Image;
 }
 
-class MazdaTheme extends AnimalTheme {
-  const MazdaTheme();
+class Animal3Theme extends AnimalTheme {
+  const Animal3Theme();
 
   @override
-  String get assetForTile => AppAssets.mazdaImage;
+  String get assetForTile => AppAssets.animal3Image;
 }
 
-class ElephantTheme extends AnimalTheme {
-  const ElephantTheme();
+class Animal4Theme extends AnimalTheme {
+  const Animal4Theme();
 
   @override
-  String get assetForTile => AppAssets.elephantImage;
+  String get assetForTile => AppAssets.animal4Image;
 }
 
-class GiraffeTheme extends AnimalTheme {
-  const GiraffeTheme();
+class Animal5Theme extends AnimalTheme {
+  const Animal5Theme();
 
   @override
-  String get assetForTile => AppAssets.giraffeImage;
+  String get assetForTile => AppAssets.animal5Image;
 }
 
-class HippoTheme extends AnimalTheme {
-  const HippoTheme();
+class Animal6Theme extends AnimalTheme {
+  const Animal6Theme();
 
   @override
-  String get assetForTile => AppAssets.hippoImage;
+  String get assetForTile => AppAssets.animal6Image;
 }
 
-class HyenaTheme extends AnimalTheme {
-  const HyenaTheme();
+class Animal7Theme extends AnimalTheme {
+  const Animal7Theme();
 
   @override
-  String get assetForTile => AppAssets.hyenaImage;
+  String get assetForTile => AppAssets.animal7Image;
 }
 
-class LeopardTheme extends AnimalTheme {
-  const LeopardTheme();
+class Animal8Theme extends AnimalTheme {
+  const Animal8Theme();
 
   @override
-  String get assetForTile => AppAssets.leopardImage;
+  String get assetForTile => AppAssets.animal8Image;
 }
 
-class LionTheme extends AnimalTheme {
-  const LionTheme();
+class Animal9Theme extends AnimalTheme {
+  const Animal9Theme();
 
   @override
-  String get assetForTile => AppAssets.lionImage;
+  String get assetForTile => AppAssets.animal9Image;
 }
 
-class MonkeyTheme extends AnimalTheme {
-  const MonkeyTheme();
+class Animal10Theme extends AnimalTheme {
+  const Animal10Theme();
 
   @override
-  String get assetForTile => AppAssets.monkeyImage;
+  String get assetForTile => AppAssets.animal10Image;
 }
 
-class RhinoTheme extends AnimalTheme {
-  const RhinoTheme();
+class Animal11Theme extends AnimalTheme {
+  const Animal11Theme();
 
   @override
-  String get assetForTile => AppAssets.rhinoImage;
+  String get assetForTile => AppAssets.animal11Image;
 }
 
-class TortoiseTheme extends AnimalTheme {
-  const TortoiseTheme();
+class Animal12Theme extends AnimalTheme {
+  const Animal12Theme();
 
   @override
-  String get assetForTile => AppAssets.tortoiseImage;
-}
-
-class ZebraTheme extends AnimalTheme {
-  const ZebraTheme();
-
-  @override
-  String get assetForTile => AppAssets.zebraImage;
+  String get assetForTile => AppAssets.animal12Image;
 }

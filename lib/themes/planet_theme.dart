@@ -13,65 +13,65 @@ abstract class PlanetTheme extends PuzzleTheme {
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class MercuryTheme extends PlanetTheme {
-  const MercuryTheme();
+class Planet1Theme extends PlanetTheme {
+  const Planet1Theme();
 
   @override
-  String get assetForTile => AppAssets.mercuryImage;
+  String get assetForTile => AppAssets.planet1Image;
 }
 
-class VenusTheme extends PlanetTheme {
-  const VenusTheme();
+class Planet2Theme extends PlanetTheme {
+  const Planet2Theme();
 
   @override
-  String get assetForTile => AppAssets.venusImage;
+  String get assetForTile => AppAssets.planet2Image;
 }
 
-class EarthTheme extends PlanetTheme {
-  const EarthTheme();
+class Planet3Theme extends PlanetTheme {
+  const Planet3Theme();
 
   @override
-  String get assetForTile => AppAssets.earthImage;
+  String get assetForTile => AppAssets.planet3Image;
 }
 
-class MarsTheme extends PlanetTheme {
-  const MarsTheme();
+class Planet4Theme extends PlanetTheme {
+  const Planet4Theme();
 
   @override
-  String get assetForTile => AppAssets.marsImage;
+  String get assetForTile => AppAssets.planet4Image;
 }
 
-class JupiterTheme extends PlanetTheme {
-  const JupiterTheme();
+class Planet5Theme extends PlanetTheme {
+  const Planet5Theme();
 
   @override
-  String get assetForTile => AppAssets.jupiterImage;
+  String get assetForTile => AppAssets.planet5Image;
 }
 
-class SaturnTheme extends PlanetTheme {
-  const SaturnTheme();
+class Planet6Theme extends PlanetTheme {
+  const Planet6Theme();
 
   @override
-  String get assetForTile => AppAssets.saturnImage;
+  String get assetForTile => AppAssets.planet6Image;
 }
 
-class UranusTheme extends PlanetTheme {
-  const UranusTheme();
+class Planet7Theme extends PlanetTheme {
+  const Planet7Theme();
 
   @override
-  String get assetForTile => AppAssets.uranusImage;
+  String get assetForTile => AppAssets.planet7Image;
 }
 
-class NeptuneTheme extends PlanetTheme {
-  const NeptuneTheme();
+class Planet8Theme extends PlanetTheme {
+  const Planet8Theme();
 
   @override
-  String get assetForTile => AppAssets.neptuneImage;
+  String get assetForTile => AppAssets.planet8Image;
 }
 
-class PlutoTheme extends PlanetTheme {
-  const PlutoTheme();
+class Planet9Theme extends PlanetTheme {
+  const Planet9Theme();
 
   @override
-  String get assetForTile => AppAssets.plutoImage;
+  String get assetForTile => AppAssets.planet9Image;
 }

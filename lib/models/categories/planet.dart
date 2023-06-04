@@ -1,15 +1,15 @@
 import 'package:equatable/equatable.dart';
 
 enum PlanetType {
-  mercury,
-  venus,
-  earth,
-  mars,
-  jupiter,
-  saturn,
-  uranus,
-  neptune,
-  pluto,
+  planet1,
+  planet2,
+  planet3,
+  planet4,
+  planet5,
+  planet6,
+  planet7,
+  planet8,
+  planet9,
 }
 
 extension PlanetTypeParsing on PlanetType {

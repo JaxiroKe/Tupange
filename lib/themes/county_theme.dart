@@ -13,135 +13,135 @@ abstract class CountyTheme extends PuzzleTheme {
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class BometTheme extends CountyTheme {
-  const BometTheme();
+class County1Theme extends CountyTheme {
+  const County1Theme();
 
   @override
-  String get assetForTile => AppAssets.bometImage;
+  String get assetForTile => AppAssets.county1Image;
 }
 
-class BusiaTheme extends CountyTheme {
-  const BusiaTheme();
+class County2Theme extends CountyTheme {
+  const County2Theme();
 
   @override
-  String get assetForTile => AppAssets.busiaImage;
+  String get assetForTile => AppAssets.county2Image;
 }
 
-class HomabayTheme extends CountyTheme {
-  const HomabayTheme();
+class County3Theme extends CountyTheme {
+  const County3Theme();
 
   @override
-  String get assetForTile => AppAssets.homabayImage;
+  String get assetForTile => AppAssets.county3Image;
 }
 
-class KakamegaTheme extends CountyTheme {
-  const KakamegaTheme();
+class County4Theme extends CountyTheme {
+  const County4Theme();
 
   @override
-  String get assetForTile => AppAssets.kakamegaImage;
+  String get assetForTile => AppAssets.county4Image;
 }
 
-class KerichoTheme extends CountyTheme {
-  const KerichoTheme();
+class County5Theme extends CountyTheme {
+  const County5Theme();
 
   @override
-  String get assetForTile => AppAssets.kerichoImage;
+  String get assetForTile => AppAssets.county5Image;
 }
 
-class KirinyagaTheme extends CountyTheme {
-  const KirinyagaTheme();
+class County6Theme extends CountyTheme {
+  const County6Theme();
 
   @override
-  String get assetForTile => AppAssets.kirinyagaImage;
+  String get assetForTile => AppAssets.county6Image;
 }
 
-class KisiiTheme extends CountyTheme {
-  const KisiiTheme();
+class County7Theme extends CountyTheme {
+  const County7Theme();
 
   @override
-  String get assetForTile => AppAssets.kisiiImage;
+  String get assetForTile => AppAssets.county7Image;
 }
 
-class KituiTheme extends CountyTheme {
-  const KituiTheme();
+class County8Theme extends CountyTheme {
+  const County8Theme();
 
   @override
-  String get assetForTile => AppAssets.kituiImage;
+  String get assetForTile => AppAssets.county8Image;
 }
 
-class KwaleTheme extends CountyTheme {
-  const KwaleTheme();
+class County9Theme extends CountyTheme {
+  const County9Theme();
 
   @override
-  String get assetForTile => AppAssets.kwaleImage;
+  String get assetForTile => AppAssets.county9Image;
 }
 
-class LamuTheme extends CountyTheme {
-  const LamuTheme();
+class County10Theme extends CountyTheme {
+  const County10Theme();
 
   @override
-  String get assetForTile => AppAssets.lamuImage;
+  String get assetForTile => AppAssets.county10Image;
 }
 
-class MarsabitTheme extends CountyTheme {
-  const MarsabitTheme();
+class County11Theme extends CountyTheme {
+  const County11Theme();
 
   @override
-  String get assetForTile => AppAssets.marsabitImage;
+  String get assetForTile => AppAssets.county11Image;
 }
 
-class MeruTheme extends CountyTheme {
-  const MeruTheme();
+class County12Theme extends CountyTheme {
+  const County12Theme();
 
   @override
-  String get assetForTile => AppAssets.meruImage;
+  String get assetForTile => AppAssets.county12Image;
 }
 
-class MombasaTheme extends CountyTheme {
-  const MombasaTheme();
+class County13Theme extends CountyTheme {
+  const County13Theme();
 
   @override
-  String get assetForTile => AppAssets.mombasaImage;
+  String get assetForTile => AppAssets.county13Image;
 }
 
-class NairobiTheme extends CountyTheme {
-  const NairobiTheme();
+class County14Theme extends CountyTheme {
+  const County14Theme();
 
   @override
-  String get assetForTile => AppAssets.nairobiImage;
+  String get assetForTile => AppAssets.county14Image;
 }
 
-class NakuruTheme extends CountyTheme {
-  const NakuruTheme();
+class County15Theme extends CountyTheme {
+  const County15Theme();
 
   @override
-  String get assetForTile => AppAssets.nakuruImage;
+  String get assetForTile => AppAssets.county15Image;
 }
 
-class NarokTheme extends CountyTheme {
-  const NarokTheme();
+class County16Theme extends CountyTheme {
+  const County16Theme();
 
   @override
-  String get assetForTile => AppAssets.narokImage;
+  String get assetForTile => AppAssets.county16Image;
 }
 
-class NyandaruaTheme extends CountyTheme {
-  const NyandaruaTheme();
+class County17Theme extends CountyTheme {
+  const County17Theme();
 
   @override
-  String get assetForTile => AppAssets.nyandaruaImage;
+  String get assetForTile => AppAssets.county17Image;
 }
 
-class SamburuTheme extends CountyTheme {
-  const SamburuTheme();
+class County18Theme extends CountyTheme {
+  const County18Theme();
 
   @override
-  String get assetForTile => AppAssets.samburuImage;
+  String get assetForTile => AppAssets.county18Image;
 }
 
-class WajirTheme extends CountyTheme {
-  const WajirTheme();
+class County19Theme extends CountyTheme {
+  const County19Theme();
 
   @override
-  String get assetForTile => AppAssets.wajirImage;
+  String get assetForTile => AppAssets.county19Image;
 }

@@ -17,9 +17,13 @@ import '../../models/ticker.dart';
 import '../../themes/country_theme.dart';
 import '../../themes/puzzle_theme.dart';
 import '../../utils/constants/app_constants.dart';
+import '../../utils/games/utils_animal.dart';
+import '../../utils/games/utils_country.dart';
+import '../../utils/games/utils_county.dart';
+import '../../utils/games/utils_planet.dart';
+import '../../utils/games/utils_president.dart';
+import '../../utils/games/utils_vehicle.dart';
 import '../../utils/utils.dart';
-import '../../utils/utils_country.dart';
-import '../../utils/utils_planet.dart';
 import '../../widgets/controls/audio_control.dart';
 import '../../widgets/stylized_text.dart';
 import 'puzzle_sections.dart';
@@ -30,17 +34,47 @@ class PuzzleScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final game = context.read<GameSelectionCubit>().game;
-    final planet = context.read<GameSelectionCubit>().planet;
+
+    final animal = context.read<GameSelectionCubit>().animal;
     final country = context.read<GameSelectionCubit>().country;
-    PuzzleTheme theme = const KenyaTheme();
+    final county = context.read<GameSelectionCubit>().county;
+    final planet = context.read<GameSelectionCubit>().planet;
+    final president = context.read<GameSelectionCubit>().president;
+    final vehicle = context.read<GameSelectionCubit>().vehicle;
+
+    PuzzleTheme theme = const Country1Theme();
     List<String> facts = [];
 
-    if (game.type == GameType.countries) {
-      theme = AppConstants.countryThemeMap[country.type]!;
-      facts = UtilsCountry.facts(country.type, context);
-    } else {
-      theme = AppConstants.planetThemeMap[planet.type]!;
-      facts = UtilsPlanet.facts(planet.type, context);
+    switch (game.type) {
+      case GameType.animals:
+        theme = AppConstants.animalThemeMap[animal.type]!;
+        facts = UtilsAnimal.facts(animal.type, context);
+        break;
+
+      case GameType.counties:
+        theme = AppConstants.countyThemeMap[county.type]!;
+        facts = UtilsCounty.facts(county.type, context);
+        break;
+
+      case GameType.countries:
+        theme = AppConstants.countryThemeMap[country.type]!;
+        facts = UtilsCountry.facts(country.type, context);
+        break;
+
+      case GameType.planets:
+        theme = AppConstants.planetThemeMap[planet.type]!;
+        facts = UtilsPlanet.facts(planet.type, context);
+        break;
+
+      case GameType.presidents:
+        theme = AppConstants.presidentThemeMap[president.type]!;
+        facts = UtilsPresident.facts(president.type, context);
+        break;
+
+      case GameType.vehicles:
+        theme = AppConstants.vehicleThemeMap[vehicle.type]!;
+        facts = UtilsVehicle.facts(vehicle.type, context);
+        break;
     }
     return MultiBlocProvider(
       providers: [
@@ -144,6 +178,5 @@ class PuzzleView extends StatelessWidget {
         ),
       ),
     );
-
   }
 }

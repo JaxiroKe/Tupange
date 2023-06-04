@@ -13,32 +13,37 @@ abstract class VehicleTheme extends PuzzleTheme {
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class KiiraTheme extends VehicleTheme {
-  const KiiraTheme();
+class Vehicle1Theme extends VehicleTheme {
+  const Vehicle1Theme();
+
   @override
-  String get assetForTile => AppAssets.kiiraImage;
+  String get assetForTile => AppAssets.vehicle1Image;
 }
 
-class MahindraTheme extends VehicleTheme {
-  const MahindraTheme();
+class Vehicle2Theme extends VehicleTheme {
+  const Vehicle2Theme();
+
   @override
-  String get assetForTile => AppAssets.mahindraImage;
+  String get assetForTile => AppAssets.vehicle2Image;
 }
 
-class MazdaTheme extends VehicleTheme {
-  const MazdaTheme();
+class Vehicle3Theme extends VehicleTheme {
+  const Vehicle3Theme();
+
   @override
-  String get assetForTile => AppAssets.mazdaImage;
+  String get assetForTile => AppAssets.vehicle3Image;
 }
 
-class MobiusTheme extends VehicleTheme {
-  const MobiusTheme();
+class Vehicle4Theme extends VehicleTheme {
+  const Vehicle4Theme();
+
   @override
-  String get assetForTile => AppAssets.mobiusImage;
+  String get assetForTile => AppAssets.vehicle4Image;
 }
 
-class ToyotaTheme extends VehicleTheme {
-  const ToyotaTheme();
+class Vehicle5Theme extends VehicleTheme {
+  const Vehicle5Theme();
+
   @override
-  String get assetForTile => AppAssets.toyotaImage;
+  String get assetForTile => AppAssets.vehicle5Image;
 }

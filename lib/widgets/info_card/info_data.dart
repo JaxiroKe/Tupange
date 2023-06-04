@@ -60,7 +60,7 @@ abstract class AppShortcutData {
             ),
             InfoPair(
               titleText: 'i',
-              description: context.l10n!.menuShortcutInfo,
+              description: context.l10n!.menuShortcutDialogInfo,
             ),
             InfoPair(
               titleText: '1 - 9',

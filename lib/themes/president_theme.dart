@@ -7,99 +7,106 @@ abstract class PresidentTheme extends PuzzleTheme {
   const PresidentTheme();
 
   @override
-  String get name => 'Animal';
+  String get name => 'President';
 
   @override
   PuzzleLayout get puzzleLayoutDelegate => PuzzleLayoutDelegate();
 }
 
-class AbiyTheme extends PresidentTheme {
-  const AbiyTheme();
+class President1Theme extends PresidentTheme {
+  const President1Theme();
 
   @override
-  String get assetForTile => AppAssets.abiyImage;
+  String get assetForTile => AppAssets.president1Image;
 }
 
-class AkufoTheme extends PresidentTheme {
-  const AkufoTheme();
+class President2Theme extends PresidentTheme {
+  const President2Theme();
 
   @override
-  String get assetForTile => AppAssets.akufoImage;
+  String get assetForTile => AppAssets.president2Image;
 }
 
-class BuhariTheme extends PresidentTheme {
-  const BuhariTheme();
+class President3Theme extends PresidentTheme {
+  const President3Theme();
 
   @override
-  String get assetForTile => AppAssets.buhariImage;
+  String get assetForTile => AppAssets.president3Image;
 }
 
-class ChawireTheme extends PresidentTheme {
-  const ChawireTheme();
+class President4Theme extends PresidentTheme {
+  const President4Theme();
 
   @override
-  String get assetForTile => AppAssets.chawireImage;
+  String get assetForTile => AppAssets.president4Image;
 }
 
-class HinchilemaTheme extends PresidentTheme {
-  const HinchilemaTheme();
+class President5Theme extends PresidentTheme {
+  const President5Theme();
 
   @override
-  String get assetForTile => AppAssets.hinchilemaImage;
+  String get assetForTile => AppAssets.president5Image;
 }
 
-class MnangagwaTheme extends PresidentTheme {
-  const MnangagwaTheme();
+class President6Theme extends PresidentTheme {
+  const President6Theme();
 
   @override
-  String get assetForTile => AppAssets.mnangagwaImage;
+  String get assetForTile => AppAssets.president6Image;
 }
 
-class MuseveniTheme extends PresidentTheme {
-  const MuseveniTheme();
+class President7Theme extends PresidentTheme {
+  const President7Theme();
 
   @override
-  String get assetForTile => AppAssets.museveniImage;
+  String get assetForTile => AppAssets.president7Image;
 }
 
-class RamaphosaTheme extends PresidentTheme {
-  const RamaphosaTheme();
+class President8Theme extends PresidentTheme {
+  const President8Theme();
 
   @override
-  String get assetForTile => AppAssets.ramaphosaImage;
+  String get assetForTile => AppAssets.president8Image;
 }
 
-class RutoTheme extends PresidentTheme {
-  const RutoTheme();
+class President9Theme extends PresidentTheme {
+  const President9Theme();
 
   @override
-  String get assetForTile => AppAssets.rutoImage;
+  String get assetForTile => AppAssets.president9Image;
 }
 
-class SuluhuTheme extends PresidentTheme {
-  const SuluhuTheme();
+class President10Theme extends PresidentTheme {
+  const President10Theme();
 
   @override
-  String get assetForTile => AppAssets.suluhuImage;
+  String get assetForTile => AppAssets.president10Image;
 }
 
-class TebbouneTheme extends PresidentTheme {
-  const TebbouneTheme();
+class President11Theme extends PresidentTheme {
+  const President11Theme();
 
   @override
-  String get assetForTile => AppAssets.tebbouneImage;
+  String get assetForTile => AppAssets.president11Image;
 }
 
-class TraoreTheme extends PresidentTheme {
-  const TraoreTheme();
+class President12Theme extends PresidentTheme {
+  const President12Theme();
 
   @override
-  String get assetForTile => AppAssets.traoreImage;
+  String get assetForTile => AppAssets.president12Image;
 }
 
-class TshisekediTheme extends PresidentTheme {
-  const TshisekediTheme();
+class President13Theme extends PresidentTheme {
+  const President13Theme();
 
   @override
-  String get assetForTile => AppAssets.tshisekediImage;
+  String get assetForTile => AppAssets.president13Image;
+}
+
+class President14Theme extends PresidentTheme {
+  const President14Theme();
+
+  @override
+  String get assetForTile => AppAssets.president14Image;
 }

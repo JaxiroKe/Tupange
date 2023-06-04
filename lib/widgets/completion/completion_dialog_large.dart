@@ -10,9 +10,13 @@ import '../../cubits/menu/level_selection_cubit.dart';
 import '../../cubits/puzzle/puzzle_helper_cubit.dart';
 import '../../models/game.dart';
 import '../../utils/app_localizationsx.dart';
+import '../../utils/games/utils_animal.dart';
+import '../../utils/games/utils_country.dart';
+import '../../utils/games/utils_county.dart';
+import '../../utils/games/utils_planet.dart';
+import '../../utils/games/utils_president.dart';
+import '../../utils/games/utils_vehicle.dart';
 import '../../utils/utils.dart';
-import '../../utils/utils_country.dart';
-import '../../utils/utils_planet.dart';
 import '../stylized_text.dart';
 import 'completion_dialog.dart';
 
@@ -33,13 +37,36 @@ class CompletionDialogLarge extends StatelessWidget {
     final isAutoSolverUsed = autoSolverSteps != 0;
 
     final game = context.read<GameSelectionCubit>().game;
-    final planet = context.read<GameSelectionCubit>().planet;
-    final country = context.read<GameSelectionCubit>().country;
 
-    var image = UtilsPlanet.image(planet.type);
-    if (game.type == GameType.countries) {
-      image = UtilsCountry.image(country.type);
+    final animal = context.read<GameSelectionCubit>().animal;
+    final country = context.read<GameSelectionCubit>().country;
+    final county = context.read<GameSelectionCubit>().county;
+    final planet = context.read<GameSelectionCubit>().planet;
+    final president = context.read<GameSelectionCubit>().president;
+    final vehicle = context.read<GameSelectionCubit>().vehicle;
+
+    var image = '';
+    switch (game.type) {
+      case GameType.animals:
+        image = UtilsAnimal.image(animal.type);
+        break;
+      case GameType.countries:
+        image = UtilsCountry.image(country.type);
+        break;
+      case GameType.counties:
+        image = UtilsCounty.image(county.type);
+        break;
+      case GameType.planets:
+        image = UtilsPlanet.image(planet.type);
+        break;
+      case GameType.presidents:
+        image = UtilsPresident.image(president.type);
+        break;
+      case GameType.vehicles:
+        image = UtilsVehicle.image(vehicle.type);
+        break;
     }
+    
     return Padding(
       padding: const EdgeInsets.all(24.0),
       child: Row(

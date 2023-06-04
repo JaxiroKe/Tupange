@@ -1,19 +1,20 @@
 import 'package:equatable/equatable.dart';
 
 enum PresidentType {
-  abiy,
-  akufo,
-  buhari,
-  chawire,
-  hinchilema,
-  mnangagwa,
-  museveni,
-  ramaphosa,
-  ruto,
-  suluhu,
-  tebboune,
-  traore,
-  tshisekedi,
+  president1,
+  president2,
+  president3,
+  president4,
+  president5,
+  president6,
+  president7,
+  president8,
+  president9,
+  president10,
+  president11,
+  president12,
+  president13,
+  president14,
 }
 
 extension PresidentTypeParsing on PresidentType {
