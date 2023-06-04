@@ -14,16 +14,6 @@ enum CountryType {
   country11,
   country12,
   country13,
-  country14,
-  country15,
-  country16,
-  country17,
-  country18,
-  country19,
-  country20,
-  country21,
-  country22,
-  country23,
 }
 
 extension CountryTypeParsing on CountryType {

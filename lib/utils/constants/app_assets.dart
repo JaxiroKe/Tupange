@@ -68,16 +68,6 @@ class AppAssets {
   static const country11Image = '$imageBase/countries/country11.jpg';
   static const country12Image = '$imageBase/countries/country12.jpg';
   static const country13Image = '$imageBase/countries/country13.jpg';
-  static const country14Image = '$imageBase/countries/country14.jpg';
-  static const country15Image = '$imageBase/countries/country15.jpg';
-  static const country16Image = '$imageBase/countries/country16.jpg';
-  static const country17Image = '$imageBase/countries/country17.jpg';
-  static const country18Image = '$imageBase/countries/country18.jpg';
-  static const country19Image = '$imageBase/countries/country19.jpg';
-  static const country20Image = '$imageBase/countries/country20.jpg';
-  static const country21Image = '$imageBase/countries/country21.jpg';
-  static const country22Image = '$imageBase/countries/country22.jpg';
-  static const country23Image = '$imageBase/countries/country23.jpg';
   
   static const planetsBg = '$imageBase/planets.jpg';
   static const planet1Image = '$imageBase/planets/planet1.png';
@@ -112,5 +102,7 @@ class AppAssets {
   static const vehicle3Image = '$imageBase/vehicles/vehicle3.jpg';
   static const vehicle4Image = '$imageBase/vehicles/vehicle4.jpg';
   static const vehicle5Image = '$imageBase/vehicles/vehicle5.jpg';
+  static const vehicle6Image = '$imageBase/vehicles/vehicle6.jpg';
+  static const vehicle7Image = '$imageBase/vehicles/vehicle7.jpg';
   
 }

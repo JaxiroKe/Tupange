@@ -46,35 +46,6 @@ abstract class UtilsCountry {
       case CountryType.country13:
         return context.l10n!.country13;
 
-      case CountryType.country14:
-        return context.l10n!.country14;
-
-      case CountryType.country15:
-        return context.l10n!.country15;
-
-      case CountryType.country16:
-        return context.l10n!.country16;
-
-      case CountryType.country17:
-        return context.l10n!.country17;
-
-      case CountryType.country18:
-        return context.l10n!.country18;
-
-      case CountryType.country19:
-        return context.l10n!.country19;
-
-      case CountryType.country20:
-        return context.l10n!.country20;
-
-      case CountryType.country21:
-        return context.l10n!.country21;
-
-      case CountryType.country22:
-        return context.l10n!.country22;
-
-      case CountryType.country23:
-        return context.l10n!.country23;
     }
   }
 
@@ -171,75 +142,6 @@ abstract class UtilsCountry {
           context.l10n!.country13Fact3
         ];
 
-      case CountryType.country14:
-        return [
-          context.l10n!.country14Fact1,
-          context.l10n!.country14Fact2,
-          context.l10n!.country14Fact3
-        ];
-
-      case CountryType.country15:
-        return [
-          context.l10n!.country15Fact1,
-          context.l10n!.country15Fact2,
-          context.l10n!.country15Fact3
-        ];
-
-      case CountryType.country16:
-        return [
-          context.l10n!.country16Fact1,
-          context.l10n!.country16Fact2,
-          context.l10n!.country16Fact3
-        ];
-
-      case CountryType.country17:
-        return [
-          context.l10n!.country17Fact1,
-          context.l10n!.country17Fact2,
-          context.l10n!.country17Fact3
-        ];
-
-      case CountryType.country18:
-        return [
-          context.l10n!.country18Fact1,
-          context.l10n!.country18Fact2,
-          context.l10n!.country18Fact3
-        ];
-
-      case CountryType.country19:
-        return [
-          context.l10n!.country19Fact1,
-          context.l10n!.country19Fact2,
-          context.l10n!.country19Fact3
-        ];
-
-      case CountryType.country20:
-        return [
-          context.l10n!.country20Fact1,
-          context.l10n!.country20Fact2,
-          context.l10n!.country20Fact3
-        ];
-
-      case CountryType.country21:
-        return [
-          context.l10n!.country21Fact1,
-          context.l10n!.country21Fact2,
-          context.l10n!.country21Fact3
-        ];
-
-      case CountryType.country22:
-        return [
-          context.l10n!.country22Fact1,
-          context.l10n!.country22Fact2,
-          context.l10n!.country22Fact3
-        ];
-
-      case CountryType.country23:
-        return [
-          context.l10n!.country23Fact1,
-          context.l10n!.country23Fact2,
-          context.l10n!.country23Fact3
-        ];
     }
   }
 
@@ -283,36 +185,6 @@ abstract class UtilsCountry {
       case CountryType.country13:
         return AppAssets.country13Image;
 
-      case CountryType.country14:
-        return AppAssets.country14Image;
-
-      case CountryType.country15:
-        return AppAssets.country15Image;
-
-      case CountryType.country16:
-        return AppAssets.country16Image;
-
-      case CountryType.country17:
-        return AppAssets.country17Image;
-
-      case CountryType.country18:
-        return AppAssets.country18Image;
-
-      case CountryType.country19:
-        return AppAssets.country19Image;
-
-      case CountryType.country20:
-        return AppAssets.country20Image;
-
-      case CountryType.country21:
-        return AppAssets.country21Image;
-
-      case CountryType.country22:
-        return AppAssets.country22Image;
-
-      case CountryType.country23:
-        return AppAssets.country23Image;
-        
     }
   }
 }

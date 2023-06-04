@@ -47,3 +47,17 @@ class Vehicle5Theme extends VehicleTheme {
   @override
   String get assetForTile => AppAssets.vehicle5Image;
 }
+
+class Vehicle6Theme extends VehicleTheme {
+  const Vehicle6Theme();
+
+  @override
+  String get assetForTile => AppAssets.vehicle6Image;
+}
+
+class Vehicle7Theme extends VehicleTheme {
+  const Vehicle7Theme();
+
+  @override
+  String get assetForTile => AppAssets.vehicle7Image;
+}

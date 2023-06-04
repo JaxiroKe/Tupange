@@ -6,6 +6,8 @@ enum VehicleType {
   vehicle3,
   vehicle4,
   vehicle5,
+  vehicle6,
+  vehicle7,
 }
 
 extension VehicleTypeParsing on VehicleType {

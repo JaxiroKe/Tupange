@@ -93,16 +93,6 @@ class AppConstants {
     Country(key: 11, type: CountryType.country11),
     Country(key: 12, type: CountryType.country12),
     Country(key: 13, type: CountryType.country13),
-    Country(key: 14, type: CountryType.country14),
-    Country(key: 15, type: CountryType.country15),
-    Country(key: 16, type: CountryType.country16),
-    Country(key: 17, type: CountryType.country17),
-    Country(key: 18, type: CountryType.country18),
-    Country(key: 19, type: CountryType.country19),
-    Country(key: 20, type: CountryType.country20),
-    Country(key: 21, type: CountryType.country21),
-    Country(key: 22, type: CountryType.country22),
-    Country(key: 23, type: CountryType.country23),
   ];
 
   static const List<President> presidents = [
@@ -128,6 +118,8 @@ class AppConstants {
     Vehicle(key: 3, type: VehicleType.vehicle3),
     Vehicle(key: 4, type: VehicleType.vehicle4),
     Vehicle(key: 5, type: VehicleType.vehicle5),
+    Vehicle(key: 6, type: VehicleType.vehicle6),
+    Vehicle(key: 7, type: VehicleType.vehicle7),
   ];
 
   static const Map<CountyType, PuzzleTheme> countyThemeMap = {
@@ -180,16 +172,6 @@ class AppConstants {
     CountryType.country11: Country11Theme(),
     CountryType.country12: Country12Theme(),
     CountryType.country13: Country13Theme(),
-    CountryType.country14: Country14Theme(),
-    CountryType.country15: Country15Theme(),
-    CountryType.country16: Country16Theme(),
-    CountryType.country17: Country17Theme(),
-    CountryType.country18: Country18Theme(),
-    CountryType.country19: Country19Theme(),
-    CountryType.country20: Country20Theme(),
-    CountryType.country21: Country21Theme(),
-    CountryType.country22: Country22Theme(),
-    CountryType.country23: Country23Theme(),
   };
 
   static const Map<PlanetType, PuzzleTheme> planetThemeMap = {
@@ -227,5 +209,7 @@ class AppConstants {
     VehicleType.vehicle3: Vehicle3Theme(),
     VehicleType.vehicle4: Vehicle4Theme(),
     VehicleType.vehicle5: Vehicle5Theme(),
+    VehicleType.vehicle6: Vehicle6Theme(),
+    VehicleType.vehicle7: Vehicle7Theme(),
   };
 }

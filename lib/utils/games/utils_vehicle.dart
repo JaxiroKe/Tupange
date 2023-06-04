@@ -22,6 +22,12 @@ abstract class UtilsVehicle {
       case VehicleType.vehicle5:
         return context.l10n!.vehicle5;
 
+      case VehicleType.vehicle6:
+        return context.l10n!.vehicle6;
+
+      case VehicleType.vehicle7:
+        return context.l10n!.vehicle7;
+
     }
   }
 
@@ -62,6 +68,20 @@ abstract class UtilsVehicle {
           context.l10n!.vehicle5Fact3
         ];
 
+      case VehicleType.vehicle6:
+        return [
+          context.l10n!.vehicle6Fact1,
+          context.l10n!.vehicle6Fact2,
+          context.l10n!.vehicle6Fact3
+        ];
+        
+      case VehicleType.vehicle7:
+        return [
+          context.l10n!.vehicle7Fact1,
+          context.l10n!.vehicle7Fact2,
+          context.l10n!.vehicle7Fact3
+        ];
+        
     }
   }
 
@@ -80,6 +100,12 @@ abstract class UtilsVehicle {
 
       case VehicleType.vehicle5:
         return AppAssets.vehicle5Image;
+
+      case VehicleType.vehicle6:
+        return AppAssets.vehicle6Image;
+
+      case VehicleType.vehicle7:
+        return AppAssets.vehicle7Image;
 
     }
   }

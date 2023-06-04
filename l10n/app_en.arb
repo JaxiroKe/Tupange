@@ -160,603 +160,307 @@
     }
   },
   "animals": "Animals",
-  "@animals": {
-    "description": "The category of animals"
-  },
-  "animal1": "Kenya",
-  "@animal1": {
-    "description": "Animal name - Kenya"
-  },
-  "animal1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "animal1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "animal1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "animal2": "Tanzania",
-  "@animal2": {
-    "description": "Animal name - Tanzania"
-  },
-  "animal2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "animal2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "animal2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "animal3": "Uganda",
-  "@animal3": {
-    "description": "Animal name - Uganda"
-  },
-  "animal3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "animal3Fact2": "This is the second largest landlocked animal in the world in terms of population. It falls second only to Ethiopia.",
-  "animal3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The animal produces an estimated 12 million tons annually.",
-  "animal4": "Nigeria",
-  "@animal4": {
-    "description": "Animal name - Nigeria"
-  },
-  "animal4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the animal's three regions.",
-  "animal4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "animal4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
-  "animal5": "",
-  "@animal5": {
-    "description": "Animal name - "
-  },
-  "animal5Fact1": "",
-  "animal5Fact2": "",
-  "animal5Fact3": "",
-  "animal6": "",
-  "@animal6": {
-    "description": "Animal name - "
-  },
-  "animal6Fact1": "",
-  "animal6Fact2": "",
-  "animal6Fact3": "",
-  "animal7": "",
-  "@animal7": {
-    "description": "Animal name - "
-  },
-  "animal7Fact1": "",
-  "animal7Fact2": "",
-  "animal7Fact3": "",
-  "animal8": "",
-  "@animal8": {
-    "description": "Animal name - "
-  },
-  "animal8Fact1": "",
-  "animal8Fact2": "",
-  "animal8Fact3": "",
-  "animal9": "",
-  "@animal9": {
-    "description": "Animal name - "
-  },
-  "animal9Fact1": "",
-  "animal9Fact2": "",
-  "animal9Fact3": "",
-  "animal10": "",
-  "@animal10": {
-    "description": "Animal name - "
-  },
-  "animal10Fact1": "",
-  "animal10Fact2": "",
-  "animal10Fact3": "",
-  "animal11": "",
-  "@animal11": {
-    "description": "Animal name - "
-  },
-  "animal11Fact1": "",
-  "animal11Fact2": "",
-  "animal11Fact3": "",
-  "animal12": "",
-  "@animal12": {
-    "description": "Animal name - "
-  },
-  "animal12Fact1": "",
-  "animal12Fact2": "",
-  "animal12Fact3": "",
-  "countries": "Countries",
-  "@countries": {
-    "description": "The category of countries"
-  },
-  "country1": "Kenya",
-  "@country1": {
-    "description": "Country name - Kenya"
-  },
-  "country1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "country1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "country1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "country2": "Tanzania",
-  "@country2": {
-    "description": "Country name - Tanzania"
-  },
-  "country2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "country2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "country2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "country3": "Uganda",
-  "@country3": {
-    "description": "Country name - Uganda"
-  },
-  "country3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "country3Fact2": "This is the second largest landlocked country in the world in terms of population. It falls second only to Ethiopia.",
-  "country3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The country produces an estimated 12 million tons annually.",
-  "country4": "Nigeria",
-  "@country4": {
-    "description": "Country name - Nigeria"
-  },
-  "country4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the country's three regions.",
-  "country4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "country4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
-  "country5": "",
-  "@country5": {
-    "description": "Country name - "
-  },
-  "country5Fact1": "",
-  "country5Fact2": "",
-  "country5Fact3": "",
-  "country6": "",
-  "@country6": {
-    "description": "Country name - "
-  },
-  "country6Fact1": "",
-  "country6Fact2": "",
-  "country6Fact3": "",
-  "country7": "",
-  "@country7": {
-    "description": "Country name - "
-  },
-  "country7Fact1": "",
-  "country7Fact2": "",
-  "country7Fact3": "",
-  "country8": "",
-  "@country8": {
-    "description": "Country name - "
-  },
-  "country8Fact1": "",
-  "country8Fact2": "",
-  "country8Fact3": "",
-  "country9": "",
-  "@country9": {
-    "description": "Country name - "
-  },
-  "country9Fact1": "",
-  "country9Fact2": "",
-  "country9Fact3": "",
-  "country10": "",
-  "@country10": {
-    "description": "Country name - "
-  },
-  "country10Fact1": "",
-  "country10Fact2": "",
-  "country10Fact3": "",
-  "country11": "",
-  "@country11": {
-    "description": "Country name - "
-  },
-  "country11Fact1": "",
-  "country11Fact2": "",
-  "country11Fact3": "",
-  "country12": "",
-  "@country12": {
-    "description": "Country name - "
-  },
-  "country12Fact1": "",
-  "country12Fact2": "",
-  "country12Fact3": "",
-  "country13": "",
-  "@country13": {
-    "description": "Country name - "
-  },
-  "country13Fact1": "",
-  "country13Fact2": "",
-  "country13Fact3": "",
-  "country14": "",
-  "@country14": {
-    "description": "Country name - "
-  },
-  "country14Fact1": "",
-  "country14Fact2": "",
-  "country14Fact3": "",
-  "country15": "",
-  "@country15": {
-    "description": "Country name - "
-  },
-  "country15Fact1": "",
-  "country15Fact2": "",
-  "country15Fact3": "",
-  "country16": "",
-  "@country16": {
-    "description": "Country name - "
-  },
-  "country16Fact1": "",
-  "country16Fact2": "",
-  "country16Fact3": "",
-  "country17": "",
-  "@country17": {
-    "description": "Country name - "
-  },
-  "country17Fact1": "",
-  "country17Fact2": "",
-  "country17Fact3": "",
-  "country18": "",
-  "@country18": {
-    "description": "Country name - "
-  },
-  "country18Fact1": "",
-  "country18Fact2": "",
-  "country18Fact3": "",
-  "country19": "",
-  "@country19": {
-    "description": "Country name - "
-  },
-  "country19Fact1": "",
-  "country19Fact2": "",
-  "country19Fact3": "",
-  "country20": "",
-  "@country20": {
-    "description": "Country name - "
-  },
-  "country20Fact1": "",
-  "country20Fact2": "",
-  "country20Fact3": "",
-  "country21": "",
-  "@country21": {
-    "description": "Country name - "
-  },
-  "country21Fact1": "",
-  "country21Fact2": "",
-  "country21Fact3": "",
-  "country22": "",
-  "@country22": {
-    "description": "Country name - "
-  },
-  "country22Fact1": "",
-  "country22Fact2": "",
-  "country22Fact3": "",
-  "country23": "",
-  "@country23": {
-    "description": "Country name - "
-  },
-  "country23Fact1": "",
-  "country23Fact2": "",
-  "country23Fact3": "",
+  "animal1": "Baboon",
+  "animal1Fact1": "Baboons have a complex social structure, with dominant males leading the troop.",
+  "animal1Fact2": "Baboons are known to steal and hoard valuable items, such as jewelry or cameras.",
+  "animal1Fact3": "Baboons have large cheek pouches that they use to store food while foraging.",
+  "animal2": "Buffalo",
+  "animal2Fact1": "Buffalos have a strong bond within their herds and will defend each other from predators.",
+  "animal2Fact2": "Buffalos have an incredible memory and can remember water sources even after long periods.",
+  "animal2Fact3": "Buffalos have a unique backward-curving horn structure, which helps protect their vulnerable neck and head.",
+  "animal3": "Elephant",
+  "animal3Fact1": "Elephants are the largest land animals and can weigh up to 12,000 pounds.",
+  "animal3Fact2": "Elephants are highly intelligent and display behaviors such as empathy and self-awareness.",
+  "animal3Fact3": "Elephants have a gestation period of about 22 months, the longest among land animals.",
+  "animal4": "Giraffe",
+  "animal4Fact1": "Giraffes have incredibly long necks, but they have the same number of neck vertebrae as humans.",
+  "animal4Fact2": "Giraffes use their long tongues, which can be up to 20 inches, to grasp and eat leaves from tall trees.",
+  "animal4Fact3": "Giraffes sleep for only a few minutes at a time and often doze off while standing.",
+  "animal5": "Hippo",
+  "animal5Fact1": "Hippos are surprisingly fast runners and can reach speeds of up to 20 miles per hour.",
+  "animal5Fact2": "Hippos produce a reddish-pink oily substance called \"blood sweat\" that helps protect their skin from the sun.",
+  "animal5Fact3": "Despite their hefty appearance, hippos are excellent swimmers and can hold their breath for up to 5 minutes.",
+  "animal6": "Hyena",
+  "animal6Fact1": "Hyenas have one of the strongest bite forces among mammals, capable of crushing bones.",
+  "animal6Fact2": "Female hyenas are larger and more dominant than males, leading to a matriarchal society.",
+  "animal6Fact3": "Hyenas have a unique way of communication called \"laughing\" which sounds like a maniacal giggle.",
+  "animal7": "Leopard",
+  "animal7Fact1": "Leopards can run at speeds of up to 36 miles per hour (58 kilometers per hour)!",
+  "animal7Fact2": "Leopards have retractable claws that enable them to climb trees easily.",
+  "animal7Fact3": "Leopards are excellent swimmers and can often be found near water bodies.",
+  "animal8": "Lion",
+  "animal8Fact1": "Lions are the only cats that live in social groups called prides.",
+  "animal8Fact2": "Male lions have majestic manes, which are often associated with strength and dominance.",
+  "animal8Fact3": "Lions are known for their powerful roars that can be heard up to 5 miles (8 kilometers) away.",
+  "animal9": "Monkey",
+  "animal9Fact1": "Monkeys use different vocalizations to communicate with their group members.",
+  "animal9Fact2": "Some monkeys, such as capuchins, are known to use tools like sticks and stones.",
+  "animal9Fact3": "Monkeys have opposable thumbs, which allow them to grasp objects and manipulate their environment.",
+  "animal10": "Rhino",
+  "animal10Fact1": "Rhinos have thick, armor-like skin that provides protection against predators.",
+  "animal10Fact2": "Despite their large size, rhinos can reach speeds of up to 30 miles per hour (48 kilometers per hour).",
+  "animal10Fact3": "Rhinos have poor eyesight but compensate with excellent hearing and a keen sense of smell.",
+  "animal11": "Tortoise",
+  "animal11Fact1": "Tortoises are known for their long lifespans, with some species living over 100 years.",
+  "animal11Fact2": "Tortoises have a hard shell that protects them from predators.",
+  "animal11Fact3": "Tortoises are herbivorous and have a slow metabolism, which allows them to survive in harsh environments with limited food.",
+  "animal12": "Zebra",
+  "animal12Fact1": "Each zebra has a unique pattern of black and white stripes, just like human fingerprints.",
+  "animal12Fact2": "Zebras have excellent eyesight and hearing, which help them detect predators in the wild.",
+  "animal12Fact3": "When zebras gather in a group, their stripes create an optical illusion that confuses and deters predators.",
   "counties": "Counties",
-  "@counties": {
-    "description": "The category of counties"
-  },
-  "county1": "Kenya",
-  "@county1": {
-    "description": "County name - Kenya"
-  },
-  "county1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "county1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "county1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "county2": "Tanzania",
-  "@county2": {
-    "description": "County name - Tanzania"
-  },
-  "county2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "county2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "county2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "county3": "Uganda",
-  "@county3": {
-    "description": "County name - Uganda"
-  },
-  "county3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "county3Fact2": "This is the second largest landlocked county in the world in terms of population. It falls second only to Ethiopia.",
-  "county3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The county produces an estimated 12 million tons annually.",
-  "county4": "Nigeria",
-  "@county4": {
-    "description": "County name - Nigeria"
-  },
-  "county4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the county's three regions.",
-  "county4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "county4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
-  "county5": "",
-  "@county5": {
-    "description": "County name - "
-  },
-  "county5Fact1": "",
-  "county5Fact2": "",
-  "county5Fact3": "",
-  "county6": "",
-  "@county6": {
-    "description": "County name - "
-  },
-  "county6Fact1": "",
-  "county6Fact2": "",
-  "county6Fact3": "",
-  "county7": "",
-  "@county7": {
-    "description": "County name - "
-  },
-  "county7Fact1": "",
-  "county7Fact2": "",
-  "county7Fact3": "",
-  "county8": "",
-  "@county8": {
-    "description": "County name - "
-  },
-  "county8Fact1": "",
-  "county8Fact2": "",
-  "county8Fact3": "",
-  "county9": "",
-  "@county9": {
-    "description": "County name - "
-  },
-  "county9Fact1": "",
-  "county9Fact2": "",
-  "county9Fact3": "",
-  "county10": "",
-  "@county10": {
-    "description": "County name - "
-  },
-  "county10Fact1": "",
-  "county10Fact2": "",
-  "county10Fact3": "",
-  "county11": "",
-  "@county11": {
-    "description": "County name - "
-  },
-  "county11Fact1": "",
-  "county11Fact2": "",
-  "county11Fact3": "",
-  "county12": "",
-  "@county12": {
-    "description": "County name - "
-  },
-  "county12Fact1": "",
-  "county12Fact2": "",
-  "county12Fact3": "",
-  "county13": "",
-  "@county13": {
-    "description": "County name - "
-  },
-  "county13Fact1": "",
-  "county13Fact2": "",
-  "county13Fact3": "",
-  "county14": "",
-  "@county14": {
-    "description": "County name - "
-  },
-  "county14Fact1": "",
-  "county14Fact2": "",
-  "county14Fact3": "",
-  "county15": "",
-  "@county15": {
-    "description": "County name - "
-  },
-  "county15Fact1": "",
-  "county15Fact2": "",
-  "county15Fact3": "",
-  "county16": "",
-  "@county16": {
-    "description": "County name - "
-  },
-  "county16Fact1": "",
-  "county16Fact2": "",
-  "county16Fact3": "",
-  "county17": "",
-  "@county17": {
-    "description": "County name - "
-  },
-  "county17Fact1": "",
-  "county17Fact2": "",
-  "county17Fact3": "",
-  "county18": "",
-  "@county18": {
-    "description": "County name - "
-  },
-  "county18Fact1": "",
-  "county18Fact2": "",
-  "county18Fact3": "",
-  "county19": "",
-  "@county19": {
-    "description": "County name - "
-  },
-  "county19Fact1": "",
-  "county19Fact2": "",
-  "county19Fact3": "",
+  "county1": "Bomet",
+  "county1Fact1": "Bomet County is known for its high agricultural productivity, particularly in tea farming.",
+  "county1Fact2": "Bomet is home to the famous Tenwek Mission Hospital, known for providing quality healthcare services.",
+  "county1Fact3": "The county is located in the South Rift region of Kenya and is known for its scenic landscapes and hilly terrain.",
+  "county2": "Busia",
+  "county2Fact1": "Busia County shares a border with Uganda, and it serves as an important transit point between Kenya and Uganda.",
+  "county2Fact2": "Busia is known for its vibrant cross-border trade and bustling marketplaces.",
+  "county2Fact3": "The county is home to the scenic Lake Victoria, offering opportunities for fishing and water-based activities.",
+  "county3": "Homabay",
+  "county3Fact1": "Homabay County is located on the shores of Lake Victoria, providing picturesque views and opportunities for fishing.",
+  "county3Fact2": "Homabay is known for its rich cultural heritage, particularly the Luo community, which is predominant in the area.",
+  "county3Fact3": "Ruma National Park, located in Homabay County, is home to various wildlife species, including rare roan antelopes.",
+  "county4": "Kakamega",
+  "county4Fact1": "Kakamega County is home to Kakamega Forest, the only tropical rainforest in Kenya, known for its biodiversity.",
+  "county4Fact2": "Kakamega is known as the 'Home of Champions' due to its rich history in producing talented athletes, especially in athletics.",
+  "county4Fact3": "The county is also famous for its traditional bullfighting events, which attract spectators from different parts of the country.",
+  "county5": "Kericho",
+  "county5Fact1": "Kericho County is the largest tea-producing region in Kenya, known for its vast tea plantations.",
+  "county5Fact2": "The county offers scenic views of rolling green hills and is often referred to as the 'Tea Capital of Kenya'.",
+  "county5Fact3": "Kericho is also home to the famous Maasai Mara University, an institution known for its agricultural and environmental programs.",
+  "county6": "Kirinyaga",
+  "county6Fact1": "Kirinyaga County is famous for Mount Kenya, the highest mountain in Kenya and the second-highest in Africa.",
+  "county6Fact2": "The county is known for its rich coffee production, with coffee farms dotting the landscape.",
+  "county6Fact3": "Kirinyaga is also home to the iconic Karura Falls, a picturesque waterfall nestled in the Aberdare Range.",
+  "county7": "Kisii",
+  "county7Fact1": "Kisii County is known for its vibrant soapstone industry, with skilled artisans creating beautiful sculptures and crafts.",
+  "county7Fact2": "The county is rich in cultural traditions, including the Gusii community's music, dance, and storytelling.",
+  "county7Fact3": "Kisii is home to the scenic Kisii Highlands, characterized by rolling hills, terraced farms, and lush green landscapes.",
+  "county8": "Kitui",
+  "county8Fact1": "Kitui County is home to the Mwingi National Reserve, known for its diverse wildlife, including elephants and buffalos.",
+  "county8Fact2": "Kitui is famous for its unique rock formations, such as the Kitui Caves, which hold cultural and historical significance.",
+  "county8Fact3": "Kitui County is known for its traditional craftwork, particularly the intricate woodcarvings and basketry produced by local artisans.",
+  "county9": "Kwale",
+  "county9Fact1": "Kwale County is home to Diani Beach, one of the most beautiful and popular beach destinations in East Africa.",
+  "county9Fact2": "Kwale County is rich in cultural heritage, with a significant population of the Digo and Duruma communities.",
+  "county9Fact3": "Kwale County is known for its vibrant traditional music and dance forms, including the Ngoma and Chakacha dances.",
+  "county10": "Lamu",
+  "county10Fact1": "Lamu County is home to Lamu Old Town, a UNESCO World Heritage Site known for its well-preserved Swahili architecture.",
+  "county10Fact2": "Lamu Old Town has narrow streets that are designed to be inaccessible to vehicles, making donkeys the primary mode of transportation.",
+  "county10Fact3": "Lamu County hosts the Lamu Cultural Festival, an annual event that showcases Swahili traditions, music, and food.",
+  "county11": "Marsabit",
+  "county11Fact1": "Marsabit County is home to Lake Turkana, the largest desert lake in the world and a UNESCO World Heritage Site.",
+  "county11Fact2": "Marsabit County is known for its diverse wildlife, including elephants, zebras, giraffes, and various bird species.",
+  "county11Fact3": "Marsabit County is home to Marsabit National Park, which encompasses a volcanic crater and offers stunning landscapes and wildlife.",
+  "county12": "Meru",
+  "county12Fact1": "Meru County is home to Mount Kenya, the highest mountain in Kenya and the second-highest in Africa.",
+  "county12Fact2": "Meru County is known for its rich agricultural practices, with tea and coffee plantations being prominent in the region.",
+  "county12Fact3": "Meru National Park, located in Meru County, is home to diverse wildlife, including elephants, lions, and rhinos.",
+  "county13": "Mombasa",
+  "county13Fact1": "Mombasa County is the gateway to the Kenyan coast and is famous for its beautiful white sandy beaches and crystal-clear waters.",
+  "county13Fact2": "Mombasa Old Town is a historical part of the city with Swahili, Arab, and European architectural influences.",
+  "county13Fact3": "Mombasa County is home to Fort Jesus, a UNESCO World Heritage Site and a historical landmark from the 16th century.",
+  "county14": "Nairobi",
+  "county14Fact1": "Nairobi is the capital and largest city of Kenya, serving as the economic and political hub of the country.",
+  "county14Fact2": "Nairobi National Park, located within the city's boundaries, is the only national park in the world that borders a capital city.",
+  "county14Fact3": "Nairobi is often referred to as the 'Green City in the Sun' due to its numerous parks, gardens, and tree-lined streets.",
+  "county15": "Nakuru",
+  "county15Fact1": "Lake Nakuru, located in Nakuru County, is a UNESCO World Heritage Site and home to millions of flamingos.",
+  "county15Fact2": "Nakuru is known as the 'Cleanest Town in East Africa' and has received recognition for its efforts in environmental conservation.",
+  "county15Fact3": "Nakuru County is characterized by its stunning landscapes, including the picturesque Menengai Crater and Hyrax Hill Prehistoric Site.",
+  "county16": "Narok",
+  "county16Fact1": "Narok County is home to the Maasai Mara National Reserve, one of Africa's most famous wildlife conservation areas.",
+  "county16Fact2": "The Maasai people, known for their distinctive culture and traditional way of life, inhabit Narok County and neighboring areas.",
+  "county16Fact3": "Narok County hosts the annual Great Migration of wildebeests and zebras, a natural spectacle attracting tourists from around the world.",
+  "county17": "Nyandarua",
+  "county17Fact1": "Nyandarua County is known for its fertile agricultural land, producing a variety of crops, including potatoes, vegetables, and dairy products.",
+  "county17Fact2": "Mount Satima, the highest peak in the Aberdare Range, is located in Nyandarua County and offers breathtaking views.",
+  "county17Fact3": "Nyandarua County is also home to the famous Aberdare National Park, renowned for its diverse flora and fauna.",
+  "county18": "Samburu",
+  "county18Fact1": "Samburu County is situated in the arid and semi-arid region of northern Kenya and is known for its unique wildlife species.",
+  "county18Fact2": "The Samburu people, a Nilotic ethnic group, inhabit the region and have a rich cultural heritage.",
+  "county18Fact3": "Samburu National Reserve, located within the county, is home to rare species such as the Grevy's zebra and the reticulated giraffe.",
+  "county19": "Wajir",
+  "county19Fact1": "Wajir County is located in northeastern Kenya and is predominantly inhabited by the Somali ethnic community.",
+  "county19Fact2": "The county is known for its unique architecture, characterized by traditional Somali houses made of clay and wood.",
+  "county19Fact3": "Wajir is part of the former Northern Frontier District, a region with a distinct cultural identity and historical significance.",
+  "countries": "Countries",
+  "country1": "Algeria",
+  "country1Fact1": "Algeria is the largest country in Africa and the 10th largest in the world, covering an area of approximately 2.38 million square kilometers.",
+  "country1Fact2": "The official language of Algeria is Arabic, but Berber languages are also recognized as national languages.",
+  "country1Fact3": "Algeria is home to the largest hot desert in the world, the Sahara Desert, which covers a significant portion of the country.",
+  "country2": "Botswana",
+  "country2Fact1": "Botswana has one of the world's highest concentrations of African elephants, with the country being a haven for these majestic creatures.",
+  "country2Fact2": "Botswana is known for its successful conservation efforts and commitment to protecting its wildlife and natural habitats.",
+  "country2Fact3": "Botswana is home to the Okavango Delta, a unique inland delta and UNESCO World Heritage Site, supporting a rich ecosystem.",
+  "country3": "DRC (Democratic Republic of the Congo)",
+  "country3Fact1": "The Democratic Republic of the Congo is the second-largest country in Africa and is known for its rich natural resources.",
+  "country3Fact2": "The DRC is home to the Congo River, the second-longest river in Africa and one of the deepest in the world.",
+  "country3Fact3": "The DRC is known for its diverse wildlife, including endangered species such as mountain gorillas and bonobos.",
+  "country4": "Egypt",
+  "country4Fact1": "Egypt is famous for its ancient civilization, including the iconic pyramids of Giza and the Great Sphinx.",
+  "country4Fact2": "The Nile River, the longest river in Africa, flows through Egypt, providing essential water resources and supporting agriculture.",
+  "country4Fact3": "Egypt is home to the Egyptian Museum in Cairo, which houses a vast collection of ancient artifacts, including the treasures of Tutankhamun.",
+  "country5": "Kenya",
+  "country5Fact1": "Kenya is renowned for its diverse wildlife and is home to several world-famous national parks and reserves, such as the Maasai Mara and Amboseli.",
+  "country5Fact2": "Kenya is the birthplace of long-distance running champions and has a rich history of success in athletics.",
+  "country5Fact3": "Kenya is located on the equator, and its climate varies from arid and semi-arid regions to highland areas with cooler temperatures.",
+  "country6": "Morocco",
+  "country6Fact1": "Morocco is known for its vibrant and bustling souks (markets) where visitors can find a wide array of spices, textiles, and handicrafts.",
+  "country6Fact2": "Morocco is home to the Atlas Mountains, including the highest peak in North Africa, Mount Toubkal.",
+  "country6Fact3": "Morocco has a rich cultural heritage influenced by Arab, Berber, and French traditions, resulting in a unique blend of architecture, cuisine, and music.",
+  "country7": "Namibia",
+  "country7Fact1": "Namibia is home to the Namib Desert, which is considered the oldest desert in the world.",
+  "country7Fact2": "Namibia is known for its stunning landscapes, including the iconic red dunes of Sossusvlei and the Fish River Canyon, one of the largest canyons in the world.",
+  "country7Fact3": "Namibia has a diverse range of wildlife, including desert-adapted elephants and critically endangered black rhinos.",
+  "country8": "Nigeria",
+  "country8Fact1": "Nigeria is the most populous country in Africa, with over 200 million people.",
+  "country8Fact2": "Nollywood, Nigeria's film industry, produces more movies annually than Hollywood in the United States.",
+  "country8Fact3": "Nigeria is known for its diverse cultural heritage, with over 250 ethnic groups and over 500 languages spoken.",
+  "country9": "South Africa",
+  "country9Fact1": "South Africa is home to the Big Five animals: lion, leopard, elephant, rhinoceros, and buffalo.",
+  "country9Fact2": "South Africa has 11 official languages, reflecting its rich linguistic diversity.",
+  "country9Fact3": "South Africa hosted the 2010 FIFA World Cup, becoming the first African nation to host the prestigious tournament.",
+  "country10": "Sudan",
+  "country10Fact1": "Sudan is the largest country in Africa, covering an area of approximately 2.5 million square kilometers.",
+  "country10Fact2": "Sudan is home to the Nile River, which is the longest river in the world.",
+  "country10Fact3": "Sudan has a rich ancient history, with archaeological sites such as the pyramids of Meroe.",
+  "country11": "Tanzania",
+  "country11Fact1": "Tanzania is home to Mount Kilimanjaro, the highest peak in Africa and the tallest freestanding mountain in the world.",
+  "country11Fact2": "Tanzania is known for its incredible wildlife and hosts the Serengeti National Park, famous for the Great Migration.",
+  "country11Fact3": "Tanzania includes the island of Zanzibar, renowned for its beautiful beaches and historical Stone Town.",
+  "country12": "Tunisia",
+  "country12Fact1": "Tunisia is often referred to as the birthplace of the Arab Spring, a series of pro-democracy uprisings in the region.",
+  "country12Fact2": "Tunisia has a rich cultural heritage, blending Berber, Arab, and Mediterranean influences.",
+  "country12Fact3": "Tunisia is home to the ancient city of Carthage, once a powerful civilization and rival to the Roman Empire.",
+  "country13": "Uganda",
+  "country13Fact1": "Uganda is known as the 'Pearl of Africa' for its stunning natural beauty, including Lake Victoria, the largest tropical lake in the world.",
+  "country13Fact2": "Uganda is home to over half of the world's population of mountain gorillas, making it a popular destination for wildlife enthusiasts.",
+  "country13Fact3": "Uganda has a diverse cultural heritage, with over 40 different indigenous languages spoken across the country.",
   "planets": "Planets",
-  "@planets": {
-    "description": "The category of planets"
-  },
   "planet1": "Mercury",
-  "@planet1": {
-    "description": "Planet name - Mercury"
-  },
   "planet1Fact1": "Mercury is the smallest planet in the Solar System, of course because someone (Pluto) is not considered a planet anymore.",
   "planet1Fact2": "Imagine able to sleep once every 2 months, that's one mercurial day, equals to almost 59 planet3 days.",
   "planet1Fact3": "Though the closest planet to Sun, Mercury's temperatures can drop to as low as -180 degrees Celsius / -290 degrees Fahrenheit.",
   "planet2": "Venus",
-  "@planet2": {
-    "description": "Planet name - Venus"
-  },
   "planet2Fact1": "In Venus a day is longer than a year. For reference, 1 Venus day equal 243 Earth days, and 1 Venus year equals 225 Earth days. Interesting huh?",
   "planet2Fact2": "Venus, for some unknown reason, spins the opposite direction of Earth and most other tupange.",
   "planet2Fact3": "Due to its thick atmosphere, Venus traps heat (global warming?) making it the hottest planet in our solar system. To top that off, there are more than 1600 major volcano.",
   "planet3": "Earth",
-  "@planet3": {
-    "description": "Planet name - Venus"
-  },
   "planet3Fact1": "Our home",
   "planet3Fact2": "Our Earth's rotation is slowing. Precisely, slowing down 17 milliseconds, every 100 years. Not much huh?",
   "planet3Fact3": "Earth takes exactly 23 hours, 56 minutes and 4 seconds to complete one rotation around its axis. A 4 min gap every day will add up over months, and probably it's technically night right now, with daylight.",
   "planet4": "Mars",
-  "@planet4": {
-    "description": "Planet name - Earth"
-  },
   "planet4Fact1": "A year on Mars is almost twice as long as a year on Earth.",
   "planet4Fact2": "If you are 100 lbs (or, 45 kg) on Earth, you would weight only 38 lbs (or, 17 kg) on Mars.",
   "planet4Fact3": "Mars is called the “Red Planet” because, well it’s red. This color comes from the large amount of iron oxide present in its rocks and soil. Iron oxide, in simple terms, is just rust.",
   "planet5": "Jupiter",
-  "@planet5": {
-    "description": "Planet name - Jupiter"
-  },
   "planet5Fact1": "Jupiter is the fastest spinning planet in our solar system. To give a context, Jupiter’s one day lasts around 10 planet3 hours.",
   "planet5Fact2": "Being the third brightest object in our Solar System (after Venus and Moon), we can see Jupiter with our own eyes.",
   "planet5Fact3": "Jupiter too has rings. They were the last to be discovered (after Saturn & Uranus’s rings) due to the fact that they are particularly faint.",
   "planet6": "Saturn",
-  "@planet6": {
-    "description": "Planet name - Saturn"
-  },
   "planet6Fact1": "Saturn’s revolution around the Sun is very slow. A year on Saturn is more than 29 Earth years.",
   "planet6Fact2": "This planet was named after the Roman god of farming, Saturn. And interestingly, the day Saturday was named after the planet, Saturn.",
   "planet6Fact3": "Saturn has beautiful rings, and they aren’t solid, they are made up of ice, dust and rocks.",
   "planet7": "Uranus",
-  "@planet7": {
-    "description": "Planet name - Uranus"
-  },
   "planet7Fact1": "Uranus, for some unknown reason, spins the opposite direction of Earth and most other tupange, and an Uranian day lasts about 17 Earth hours.",
   "planet7Fact2": "Uranus has rings too. It is thought that the rings are to be parts of a moon or moons that were sometime shattered by high speed impacts with an object such as comet or asteroid.",
   "planet7Fact3": "Uranus takes almost 84 Earth years to complete one orbit. Imagine having a single Uranian birthday for your entire Earthian life.",
   "planet8": "Neptune",
-  "@planet8": {
-    "description": "Planet name - Neptune"
-  },
   "planet8Fact1": "Neptune’s one year lasts 165 Earth years. Neptune has just completed one orbit around the Sun, since its discovery in 1846.",
   "planet8Fact2": "Neptune has the strongest winds of any tupange in the Solar System. Some winds can reach up to 2000 km / 1200 mi per hour. Supersonic winds, huh!",
   "planet8Fact3": "It rains diamonds in Neptune! It is thought that the Methane decomposes into diamond crystals due to the planet’s conditions.",
   "planet9": "Pluto",
-  "@planet9": {
-    "description": "Planet name - Pluto"
-  },
   "planet9Fact1": "I understand Pluto is not a planet anymore, but I felt sad excluding it.",
   "planet9Fact2": "Pluto was demoted to dwarf planet status in 2006 - as its merely the brightest member of the Kuiper Belt, it’s simply not unique (unlike other tupange)",
   "planet9Fact3": "Being one of the farthest member from Sun, Pluto can actually get closer to the Sun than Neptune. It was last inside Neptune’s orbit between 1979 and 1999.",
   "presidents": "Presidents",
-  "@presidents": {
-    "description": "The category of presidents"
-  },
-  "president1": "Kenya",
-  "@president1": {
-    "description": "President name - Kenya"
-  },
-  "president1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "president1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "president1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "president2": "Tanzania",
-  "@president2": {
-    "description": "President name - Tanzania"
-  },
-  "president2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "president2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "president2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "president3": "Uganda",
-  "@president3": {
-    "description": "President name - Uganda"
-  },
-  "president3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "president3Fact2": "This is the second largest landlocked president in the world in terms of population. It falls second only to Ethiopia.",
-  "president3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The president produces an estimated 12 million tons annually.",
-  "president4": "Nigeria",
-  "@president4": {
-    "description": "President name - Nigeria"
-  },
-  "president4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the president's three regions.",
-  "president4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "president4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
-  "president5": "",
-  "@president5": {
-    "description": "President name - "
-  },
-  "president5Fact1": "",
-  "president5Fact2": "",
-  "president5Fact3": "",
-  "president6": "",
-  "@president6": {
-    "description": "President name - "
-  },
-  "president6Fact1": "",
-  "president6Fact2": "",
-  "president6Fact3": "",
-  "president7": "",
-  "@president7": {
-    "description": "President name - "
-  },
-  "president7Fact1": "",
-  "president7Fact2": "",
-  "president7Fact3": "",
-  "president8": "",
-  "@president8": {
-    "description": "President name - "
-  },
-  "president8Fact1": "",
-  "president8Fact2": "",
-  "president8Fact3": "",
-  "president9": "",
-  "@president9": {
-    "description": "President name - "
-  },
-  "president9Fact1": "",
-  "president9Fact2": "",
-  "president9Fact3": "",
-  "president10": "",
-  "@president10": {
-    "description": "President name - "
-  },
-  "president10Fact1": "",
-  "president10Fact2": "",
-  "president10Fact3": "",
-  "president11": "",
-  "@president11": {
-    "description": "President name - "
-  },
-  "president11Fact1": "",
-  "president11Fact2": "",
-  "president11Fact3": "",
-  "president12": "",
-  "@president12": {
-    "description": "President name - "
-  },
-  "president12Fact1": "",
-  "president12Fact2": "",
-  "president12Fact3": "",
-  "president13": "",
-  "@president13": {
-    "description": "President name - "
-  },
-  "president13Fact1": "",
-  "president13Fact2": "",
-  "president13Fact3": "",
-  "president14": "",
-  "@president14": {
-    "description": "President name - "
-  },
-  "president14Fact1": "",
-  "president14Fact2": "",
-  "president14Fact3": "",
+  "president1": "Abiy Ahmed",
+  "president1Fact1": "Abiy Ahmed is the first person from the Oromo ethnic group to become the Prime Minister of Ethiopia.",
+  "president1Fact2": "Abiy Ahmed played a significant role in normalizing relations between Ethiopia and Eritrea, ending a 20-year conflict.",
+  "president1Fact3": "Abiy Ahmed was awarded the Nobel Peace Prize in 2019 for his efforts to achieve peace and international cooperation.",
+  "president2": "Nana Akufo-Addo",
+  "president2Fact1": "Nana Akufo-Addo is the President of Ghana and has been in office since January 2017.",
+  "president2Fact2": "Nana Akufo-Addo is a lawyer and has been involved in Ghanaian politics for several decades.",
+  "president2Fact3": "Nana Akufo-Addo has prioritized education and implemented policies to provide free secondary education in Ghana.",
+  "president3": "Bola Ahmed Tinubu",
+  "president3Fact1": "Bola Ahmed Tinubu is a prominent Nigerian politician and a former Governor of Lagos State.",
+  "president3Fact2": "Bola Ahmed Tinubu is known for his influential role in Nigerian politics and his contributions to the All Progressives Congress (APC) party.",
+  "president3Fact3": "Bola Ahmed Tinubu has been considered a potential candidate for the Nigerian presidency in the past.",
+  "president4": "Lazarus Chakwera",
+  "president4Fact1": "Lazarus Chakwera is the President of Malawi and assumed office in June 2020.",
+  "president4Fact2": "Lazarus Chakwera is a former pastor and served as the leader of the Malawi Congress Party before becoming president.",
+  "president4Fact3": "Lazarus Chakwera campaigned on a platform of fighting corruption and promoting economic development in Malawi.",
+  "president5": "Paul Kagame",
+  "president5Fact1": "Paul Kagame is the President of Rwanda and has been in office since 2000.",
+  "president5Fact2": "Paul Kagame is widely credited with leading Rwanda's transformation and economic development after the devastating genocide in 1994.",
+  "president5Fact3": "Paul Kagame has implemented various initiatives to promote technology and innovation, positioning Rwanda as a tech hub in Africa.",
+  "president6": "Hakainde Hichilema",
+  "president6Fact1": "Hakainde Hichilema is the President of Zambia, assuming office in August 2021.",
+  "president6Fact2": "Hakainde Hichilema is an economist and businessman, with a background in finance and corporate leadership.",
+  "president6Fact3": "Hakainde Hichilema has pledged to revitalize Zambia's economy, combat corruption, and promote inclusive development.",
+  "president7": "Emmerson Mnangagwa",
+  "president7Fact1": "Emmerson Mnangagwa is the President of Zimbabwe and has been in office since November 2017.",
+  "president7Fact2": "Emmerson Mnangagwa served as Vice President of Zimbabwe under Robert Mugabe before assuming the presidency.",
+  "president7Fact3": "Emmerson Mnangagwa has initiated efforts to attract foreign investment, revive the economy, and promote political reforms in Zimbabwe.",
+  "president8": "Yoweri Museveni",
+  "president8Fact1": "Yoweri Museveni has been the President of Uganda since 1986, making him one of the longest-serving African leaders.",
+  "president8Fact2": "Museveni has been involved in various rebel groups before assuming the presidency, including fighting against Idi Amin's regime.",
+  "president8Fact3": "Museveni is known for his unique style of leadership, often donning a wide-brimmed hat and military attire during public appearances.",
+  "president9": "Cyril Ramaphosa",
+  "president9Fact1": "Cyril Ramaphosa is a former trade union leader who played a prominent role in the anti-apartheid movement in South Africa.",
+  "president9Fact2": "Ramaphosa became one of South Africa's wealthiest individuals through his successful business ventures.",
+  "president9Fact3": "Ramaphosa is a trained lawyer and has a reputation for his negotiation and mediation skills.",
+  "president10": "William Ruto",
+  "president10Fact1": "William Ruto is the current Deputy President of Kenya.",
+  "president10Fact2": "Ruto is known for his ambitious political career, having risen from a humble background to hold influential positions.",
+  "president10Fact3": "Ruto has faced various legal challenges and political controversies throughout his career.",
+  "president11": "Samia Suluhu",
+  "president11Fact1": "Samia Suluhu Hassan became the President of Tanzania following the death of President John Magufuli in 2021.",
+  "president11Fact2": "Suluhu is the first female President of Tanzania and the first female head of state in East Africa.",
+  "president11Fact3": "Suluhu previously served as the Vice President of Tanzania, becoming known for her calm and diplomatic approach.",
+  "president12": "Abdelmadjid Tebboune",
+  "president12Fact1": "Abdelmadjid Tebboune is the current President of Algeria, assuming office in 2019.",
+  "president12Fact2": "Tebboune previously held various ministerial positions in the Algerian government.",
+  "president12Fact3": "Tebboune's presidency has focused on economic reforms and addressing political and social issues in Algeria.",
+  "president13": "Ibrahim Traoré",
+  "president13Fact1": "Ibrahim Traoré served as the President of Mali from 1992 to 1993.",
+  "president13Fact2": "Traoré's presidency was marked by political unrest and a military coup that ultimately led to his ousting.",
+  "president13Fact3": "Traoré played a significant role in the political landscape of Mali during the transition from military rule to democratic governance.",
+  "president14": "Felix Tshisekedi",
+  "president14Fact1": "Felix Tshisekedi is the current President of the Democratic Republic of the Congo, assuming office in 2019.",
+  "president14Fact2": "Tshisekedi is the son of prominent Congolese opposition leader Etienne Tshisekedi.",
+  "president14Fact3": "Tshisekedi's presidency has focused on promoting peace, stability, and economic development in the Democratic Republic of the Congo.",
   "vehicles": "Vehicles",
-  "@vehicles": {
-    "description": "The category of vehicles"
-  },
-  "vehicle1": "Kenya",
-  "@vehicle1": {
-    "description": "Vehicle name - Kenya"
-  },
-  "vehicle1Fact1": "It has 50 national parks & reserves (22 national parks and 28 national reserves) like Masai Mara and Amboseli which are both popular safari destinations.",
-  "vehicle1Fact2": "The first woman to win a Nobel Peace Prize was from Kenya. Wangari Muta Maathai was inspirational woman was a Kenyan environmental, social, and political activist who won the Nobel Peace Prize in 2004.",
-  "vehicle1Fact3": "Mount Kenya is the second-highest mountain in Africa after Mount Kilimanjaro in neighbouring Tanzania.",
-  "vehicle2": "Tanzania",
-  "@vehicle2": {
-    "description": "Vehicle name - Tanzania"
-  },
-  "vehicle2Fact1": "Tanzania gain independence from Britain in December 1961 led by Mwalimu Julius Kambarage Nyerere",
-  "vehicle2Fact2": "Tanganyika and Zanzibar united on 26th April 1964, forming the United Republic of Tanzania. Tanganyika became independent from the British on December 1961 and Zanzibar became free through a revolution on 12th January 1964.",
-  "vehicle2Fact3": "It has Mount Kilimanjaro, the Tallest Mountain in Africa and Lake Tanganyika the Second Largest Lake in the World. Nearly 30% of Tanzania is National Parks.",
-  "vehicle3": "Uganda",
-  "@vehicle3": {
-    "description": "Vehicle name - Uganda"
-  },
-  "vehicle3Fact1": "Apollo Milton Obote (28 December 1925 – 10 October 2005) was a Ugandan political leader who led Uganda to independence from British colonial rule in 1962.",
-  "vehicle3Fact2": "This is the second largest landlocked vehicle in the world in terms of population. It falls second only to Ethiopia.",
-  "vehicle3Fact3": "This is the second largest producer of bananas in the world, falling second only to India. The vehicle produces an estimated 12 million tons annually.",
-  "vehicle4": "Nigeria",
-  "@vehicle4": {
-    "description": "Vehicle name - Nigeria"
-  },
-  "vehicle4Fact1": "The Federation of Nigeria was granted full independence on 1st October 1960 under a constitution that provided for a parliamentary government and a substantial measure of self-government for the vehicle's three regions.",
-  "vehicle4Fact2": "The richest man in Africa, Aliko Dangote, is Nigerian. His net worth is more than 12 billion dollars. His interests span sugar and salt, manufacturing, cement, banking, agriculture etc",
-  "vehicle4Fact3": "It's the Largest Economy In Africa with its Biggest Exports Of Nigeria being Oil. It has More Than 500 Spoken Languages and more than 250 ethnic groups",
-  "vehicle5": "",
-  "@vehicle5": {
-    "description": "Vehicle name - "
-  },
-  "vehicle5Fact1": "",
-  "vehicle5Fact2": "",
-  "vehicle5Fact3": "",
+  "vehicle1": "Kiira",
+  "vehicle1Fact1": "Kiira Motors, based in Uganda, developed Africa's first solar-powered bus called the 'Kayoola Solar Bus.'",
+  "vehicle1Fact2": "The Kiira EV, a fully electric vehicle prototype developed by Kiira Motors, won the first Africa Prize for Engineering Innovation in 2012.",
+  "vehicle1Fact3": "Kiira Motors aims to promote sustainable transportation solutions and contribute to the growth of the automotive industry in Africa.",
+  "vehicle2": "Innoson",
+  "vehicle2Fact1": "Innoson Vehicle Manufacturing (IVM), based in Nigeria, is the first indigenous automobile manufacturing company in Africa.",
+  "vehicle2Fact2": "Innoson produces a wide range of vehicles, including cars, SUVs, and buses, tailored to the African market and road conditions.",
+  "vehicle2Fact3": "Innoson vehicles are assembled in Nigeria, promoting local job creation and reducing the dependence on imported vehicles.",
+  "vehicle3": "Birkin",
+  "vehicle3Fact1": "Birkin Cars, founded in South Africa, specializes in manufacturing high-performance sports cars inspired by the iconic Lotus 7 design.",
+  "vehicle3Fact2": "Birkin cars are handcrafted and offer exceptional performance, combining lightweight construction with powerful engines.",
+  "vehicle3Fact3": "Birkin cars have gained a reputation for their agility and exhilarating driving experience, attracting enthusiasts and collectors worldwide.",
+  "vehicle4": "Mobius",
+  "vehicle4Fact1": "Mobius Motors, based in Kenya, specializes in designing and manufacturing affordable vehicles specifically for African markets.",
+  "vehicle4Fact2": "Mobius II, one of the flagship models of Mobius Motors, is a rugged and versatile SUV built to withstand African terrain.",
+  "vehicle4Fact3": "Mobius vehicles are designed with a focus on durability, simplicity, and affordability, addressing the transportation needs of many Africans.",
+  "vehicle5": "Wallyscar",
+  "vehicle5Fact1": "Wallyscar, based in Tunisia, is a homegrown car manufacturer known for producing rugged and versatile off-road vehicles.",
+  "vehicle5Fact2": "Wallyscar vehicles are designed to handle challenging terrains, making them popular choices for adventure enthusiasts and outdoor enthusiasts.",
+  "vehicle5Fact3": "Wallyscar vehicles are manufactured using local resources and skilled Tunisian craftsmanship, contributing to the country's economy and automotive industry.",
+  "vehicle6": "Katanka",
+  "vehicle6Fact1": "Katanka Automobile Company, based in Ghana, manufactures a range of vehicles, including SUVs, pickups, and luxury cars.",
+  "vehicle6Fact2": "Katanka vehicles are designed and engineered to meet international safety and quality standards.",
+  "vehicle6Fact3": "Katanka Automobile Company is committed to promoting African-made vehicles and contributing to the development of the automotive industry in Ghana.",
+  "vehicle7": "Laraki",
+  "vehicle7Fact1": "Laraki Automobiles, based in Morocco, is known for producing high-end luxury sports cars.",
+  "vehicle7Fact2": "Laraki vehicles combine exquisite design, powerful performance, and luxurious interiors, catering to discerning automotive enthusiasts.",
+  "vehicle7Fact3": "Laraki Automobiles has gained international recognition for its craftsmanship and attention to detail, positioning Morocco as a hub for luxury car manufacturing in Africa.",
   "congrats": "Congrats!",
   "@congrats": {
     "description": "Puzzle completion congrats text"
