@@ -1,0 +1,54 @@
+name: tupange
+description: A Slide Puzzle for Kenyans
+publish_to: "none"
+
+version: 1.4.1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.2
+  card_swiper: ^2.0.4
+  carousel_slider: ^4.1.1
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0
+  gallery_saver: ^2.3.2
+  gap: ^2.0.0
+  intl: ^0.17.0
+  audioplayers: ^1.1.1
+  path_provider: ^2.0.9
+  universal_html: ^2.0.8
+  url_launcher: ^6.0.20
+  uuid: ^3.0.6
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/icons/
+    - assets/images/
+    - assets/images/planets/
+
+  fonts:
+    - family: ComicSans
+      fonts:
+        - asset: assets/fonts/ComicSans.ttf
+    - family: DS-Digital
+      fonts:
+        - asset: assets/fonts/DS-Digital.ttf
+    - family: FreshMan
+      fonts:
+        - asset: assets/fonts/FreshMan.ttf
